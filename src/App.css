@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+/*--------------------*/
+
+#container {
+  width: 1140px;
+  margin: 0 auto;
+  background: rgb(235, 234, 234);
+}
+
+#navbar {
+  background: rgb(218, 218, 218);
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+#navbar ul li {
+  list-style: none;
+  display: inline;
+  font-weight: 600;
+  padding: 40px;
+  margin-top: 0;
+}
+
+#Header {
+  background-image: url("./img/dan-meyers-utFO-7TScD4-unsplash.jpg");
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Header div {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 1px 1px black;
+  background: rgba(5, 5, 5, 0.7);
+}
+
+#About div {
+  margin: 3%;
+}
+
+#Skills {
+  background: white;
+}
+#Skills ul {
+  list-style: none;
+  text-decoration: none;
+}

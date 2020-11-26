@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import axios from "axios";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import About from "./components/About";
+import Skills from "./components/Skills";
 
-function App() {
+const App = () => {
+  const [allData, setAllData] = useState({
+    resume: [],
+  });
+
+  useEffect(() => {
+    axios
+      .get(`./myResume.json`)
+      .then((res) => setAllData({ resume: res.data }))
+      .catch((err) => console.log(err));
+  }, []);
+
+  const main = allData.resume.main;
+  const skills = allData.resume.skills;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="container">
+      <Navbar/>
+      <Header data={main}/>
+      <About data={main} />
+      <Skills data={skills} />
+      {/* <Project /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
-}
+};
 
 export default App;

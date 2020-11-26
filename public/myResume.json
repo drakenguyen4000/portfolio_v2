@@ -1,0 +1,131 @@
+{
+  "main": {
+    "name": "Drake Nguyen",
+    "title": "Front End Web Developer",
+    "description": "Hi my name is Drake. I'm a content integrator turned web developer. I design, build beautiful and responsive web applications with a user-centric design.",
+    "image": "profilepic.jpg",
+    "bio": {
+      "sentence1": "I am naturally curious, problem solver, who enjoys to continuously learn new technologies. As a developer, I am opened to learning any new technologies necessary to get the job done. My passion is traveling, trying new foods, and building applications that meet people's needs.",
+      "sentence2": "I always liked technology but my love for it came from working as software content integrator at Collins Aerospace in their interactive map department (Airshow). My main duty was configuring inflight map software for passengers on Virgin, Korean Air, Etihad, and other major commercial carriers. I worked on database management, updated stylesheets, quality testing, participated in user interface designs, and content creation. I was very passionate, proud, and driven in my role.",
+      "sentence3": "Recently, however, my company moved its Airshow division back to Cedar Rapids, Iowa and I decided not to follow. This began my pursuit of web development to continue my love of working in the technology sector.",
+      "sentence4": "So, are you looking for a hard-working, passionate developer that enjoys collaborating with others to create practical web applications? I would love to work with likeminded individuals on amazing web projects."
+    },
+    "contactmessage": "If you want to collaborate with me on any projects or have any questions about my projects, feel free to email!",
+    "email": "drakeknguyen@yahoo.com",
+    "phone": "714-837-1648",
+    "website": "https://drakenguyen4000.github.io/portfolio/",
+    "resumedownload": "https://drakenguyen4000.github.io/portfolio/",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/drake-nguyen-550ab228/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/drakenguyen4000",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "skills": {
+    "frontend": [
+      "HTML5",
+      "CSS3 / Flexbox / Grid",
+      "Javascript / jQuery",
+      "React",
+      "Bootstrap 3/4",
+      "SASS",
+      "UI / UX Design",
+      "Webpack",
+      "Photoshop"
+    ],
+    "backend": [
+      "Node.js / npm",
+      "Express",
+      "MySQL",
+      "MongoDB / Mongoose",
+      "RESTful API",
+      "Git / GitHub",
+      "CLI (Linux)",
+      "Jira",
+      "Visual Studio Code"
+    ],
+    "technical": [
+      "Creating Responsive Websites",
+      "Attention to Detail & Creative Eye",
+      "PSD Model Conversion",
+      "Content/Database Management & Configuration",
+      "Troubleshoot & Debugging Software",
+      "Quality Assurance & Testing",
+      "Multi-tasking Projects",
+      "Collaboration with Engineers & Project Managers"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Issues Tracker",
+      "blurb": "Keep track of bugs & issues!",
+      "summary": "Issues tracker is a fullstack MERN application that enables your company to track bugs/issues of your projects. This applicaiton uses RESTful route API architecture and is deployed on Heroku.",
+      "stack": "This app is devloped using MongdoDB, React, Express, and Node.js.",
+      "image": "issuestracker.jpg",
+      "url": "https://reactissuetracker.herokuapp.com/#/"
+    },
+    {
+      "title": "Food Seeker",
+      "blurb": "Share a dish you like!",
+      "summary": "Foodseeker is a fullstack, dynamic application that allows users to create their own profile to share and discuss unique, endearing dishes from around in the world. This app uses RESTful route API architecture and is deployed on Heroku.",
+      "stack": "This app is created using Express, Node.js, EJS, and Bootstrap, utilizing MongdoDB database.",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/foodseeker.jpg",
+      "url": "https://foodseekerapp.herokuapp.com/"
+    },
+    {
+      "title": "Weather Forecast",
+      "blurb": "What's your weather like?",
+      "summary": "Issues tracker is a fullstack MERN application that enables your company to track bugs/issues of your projects. This applicaiton uses RESTful route API architecture and is deployed on Heroku.",
+      "stack": "This app is devloped using MongdoDB, React, Express, and Node.js.",
+      "image": "myforecast.jpg",
+      "url": "https://drakenguyen4000.github.io/weatherforecast/"
+    },
+    {
+      "title": "Pokemon Battle Game",
+      "blurb": "Are you ready to battle?",
+      "summary": "A two player game where each player takes turns charging up their pokemon's energies and then releasing that energy on their opponent's health bar. The winner is the player that reduces their opponent's health bar to zero.",
+      "stack": "This app was built using Javascript, HTML5, and CSS3.",
+      "image": "pokemon.jpg",
+      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/pokemonbattle/index.html"
+    },
+    {
+      "title": "Vietnam Travels",
+      "blurb": "Looking to relax?",
+      "summary": "A travel site I built that offers tours of different regions of Vietnam. Since I enjoy traveling there so much, I decided to build a project around it.",
+      "stack": "This site was built using Bootstrap, Javascript, JQuery, HTML5, and CSS3.",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/vietnamtravels.jpg",
+      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/vietnamtravels/index.html"
+    },
+    {
+      "title": "Italian Menu",
+      "blurb": "PSD to HTML Menu",
+      "summary": "A responsive webpage that I tranferred directly from a PSD file.",
+      "stack": "This site was built using HTML5, CSS3, and grid.",
+      "image": "menu.jpg",
+      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/menu/index.html"
+    },
+    {
+      "title": "4 Seasons Drinks",
+      "blurb": "Dark coffee please?",
+      "summary": "A simple cafe page that uses Bootstrap's grid.",
+      "stack": "This page was built using HTML5, CSS3, Bootstrap, and jQuery.",
+      "image": "4seasons.jpg",
+      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/4seasonsdrinks/index.html"
+    },
+    {
+      "title": "Stan Lee Bio",
+      "blurb": "Excelsior!",
+      "summary": "My first project in learning CSS and HTML. Since I loved comic books, I felt like a dedicated page to Stan Lee would be a fun way to learn code.",
+      "stack": "This page was built using HTML5, CSS3, animation, grid, and flexbox.",
+      "image": "stanlee.jpg",
+      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/stanlee/index.html"
+    }
+  ]
+}

@@ -2,26 +2,38 @@ import React from "react";
 
 const Skills = (props) => {
   if (props.data) {
-    var front_end = props.data.frontend;
-    var back_end = props.data.backend;
-    var technical = props.data.technical;
+    var { frontend, backend, technical } = props.data;
   }
   const skill = (list) => {
     if (list) {
       return list.map((item) => {
-        return <li key={item}>{item}</li>;
+        return <li key={item}><i className="fas fa-circle-notch"></i> {item}<hr/></li>;
       });
     }
   };
 
   return (
     <section id="Skills">
+      <h1>Web Development Skills</h1>
       <div>
-        <ul>{skill(front_end)}</ul>
-      </div>
-      <div>{<ul>{skill(back_end)}</ul>}</div>
-      <div>
-        <ul>{skill(technical)}</ul>
+        <span>
+          <h3>
+            <span>Front-End</span>
+          </h3>
+          <ul>{skill(frontend)}</ul>
+        </span>
+        <span>
+          <h3>
+            <span>Back-End</span>
+          </h3>
+          {<ul>{skill(backend)}</ul>}
+        </span>
+        <span>
+          <h3>
+            <span>Technical</span>
+          </h3>
+          <ul>{skill(technical)}</ul>
+        </span>
       </div>
     </section>
   );

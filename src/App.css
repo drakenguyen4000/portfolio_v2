@@ -38,16 +38,13 @@
 }
 
 /*--------------------*/
-
 #container {
-  width: 1140px;
-  margin: 0 auto;
+  padding: 0 10%;
   background: rgb(235, 234, 234);
 }
 
 #navbar {
   background: rgb(218, 218, 218);
-  /* text-align: center; */
   display: flex;
   justify-content: center;
 }
@@ -63,6 +60,7 @@
   background-image: url("./img/dan-meyers-utFO-7TScD4-unsplash.jpg");
   background-position: center;
   height: 600px;
+  padding: 0 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,15 +73,64 @@
   text-shadow: 1px 1px black;
   background: rgba(5, 5, 5, 0.7);
 }
+/*---sections---*/
+section h1 {
+  margin-left: 3%;
+}
 
+/*---About---*/
 #About div {
   margin: 3%;
 }
-
-#Skills {
-  background: white;
+.download_btn {
+  background: #1f1e1e;
+  margin-left: 3%;
+  padding: 1% 2%;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2px;
 }
+
+.download_btn:hover {
+  background: rgb(65, 65, 65);
+}
+/*---Skills---*/
+
+/*skills container*/
+#Skills div {
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1%;
+}
+
+/*Skills card*/
+#Skills div span {
+  background: #2B2B2B;
+  color: white;
+}
+
+/*skill header*/
+#Skills span h3 span {
+  margin-left: 10%;
+  border-bottom: 3px solid #11ABB0;
+}
+/*skills list*/
 #Skills ul {
   list-style: none;
   text-decoration: none;
+  font-weight: 500;
+  padding: 5% 10%;
+}
+
+/*underline*/
+#Skills hr {
+  color: #5cd4d8;
+}
+
+
+.fa-circle-notch {
+  color: #5cd4d8;
+  font-size: 75%;
 }

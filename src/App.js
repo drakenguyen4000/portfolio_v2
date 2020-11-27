@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import axios from "axios";
 import Navbar from "./components/Navbar";
@@ -22,15 +23,17 @@ const App = () => {
   const skills = allData.resume.skills;
 
   return (
-    <div id="container">
-      <Navbar/>
-      <Header data={main}/>
-      <About data={main} />
-      <Skills data={skills} />
-      {/* <Project /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
-    </div>
+    <BrowserRouter>
+      <div id="container">
+        <Navbar />
+        <Header data={main} />
+        <About data={main} />
+        <Skills data={skills} />
+        {/* <Project /> */}
+        {/* <Contact /> */}
+        {/* <Footer /> */}
+      </div>
+    </BrowserRouter>
   );
 };
 

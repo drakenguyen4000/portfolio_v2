@@ -5,16 +5,16 @@
     "description": "Hi my name is Drake. I'm a content integrator turned web developer. I design, build beautiful and responsive web applications with a user-centric design.",
     "image": "profilepic.jpg",
     "bio": {
-      "sentence1": "I am naturally curious, problem solver, who enjoys to continuously learn new technologies. As a developer, I am opened to learning any new technologies necessary to get the job done. My passion is traveling, trying new foods, and building applications that meet people's needs.",
-      "sentence2": "I always liked technology but my love for it came from working as software content integrator at Collins Aerospace in their interactive map department (Airshow). My main duty was configuring inflight map software for passengers on Virgin, Korean Air, Etihad, and other major commercial carriers. I worked on database management, updated stylesheets, quality testing, participated in user interface designs, and content creation. I was very passionate, proud, and driven in my role.",
-      "sentence3": "Recently, however, my company moved its Airshow division back to Cedar Rapids, Iowa and I decided not to follow. This began my pursuit of web development to continue my love of working in the technology sector.",
-      "sentence4": "So, are you looking for a hard-working, passionate developer that enjoys collaborating with others to create practical web applications? I would love to work with likeminded individuals on amazing web projects."
+      "paragraph1": "I am naturally curious, problem solver, who enjoys to continuously learn new technologies. As a developer, I am opened to learning any new technologies necessary to get the job done. My passion is traveling, trying new foods, and building applications that meet people's needs.",
+      "paragraph2": "I always liked technology but my love for it came from working as software content integrator at Collins Aerospace in their interactive map department (Airshow). My main duty was configuring inflight map software for passengers on Virgin, Korean Air, Etihad, and other major commercial carriers. I worked on database management, updated stylesheets, quality testing, participated in user interface designs, and content creation. I was very passionate, proud, and driven in my role.",
+      "paragraph3": "Recently, however, my company moved its Airshow division back to Cedar Rapids, Iowa and I decided not to follow. This began my pursuit of web development to continue my love of working in the technology sector.",
+      "paragraph4": "So, are you looking for a hard-working, passionate developer that enjoys collaborating with others to create practical web applications? I would love to work with likeminded individuals on amazing web projects."
     },
     "contactmessage": "If you want to collaborate with me on any projects or have any questions about my projects, feel free to email!",
     "email": "drakeknguyen@yahoo.com",
     "phone": "714-837-1648",
     "website": "https://drakenguyen4000.github.io/portfolio/",
-    "resumedownload": "https://drakenguyen4000.github.io/portfolio/",
+    "resumelink": "https://drakenguyen4000.github.io/portfolio/7-download/DrakeNguyen-Resume.pdf",
     "social": [
       {
         "name": "linkedin",

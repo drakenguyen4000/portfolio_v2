@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
   const [allData, setAllData] = useState({
@@ -19,8 +20,7 @@ const App = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  const main = allData.resume.main;
-  const skills = allData.resume.skills;
+  const { main, skills, projects } = allData.resume;
 
   return (
     <BrowserRouter>
@@ -29,7 +29,7 @@ const App = () => {
         <Header data={main} />
         <About data={main} />
         <Skills data={skills} />
-        {/* <Project /> */}
+        <Projects data={projects} />
         {/* <Contact /> */}
         {/* <Footer /> */}
       </div>

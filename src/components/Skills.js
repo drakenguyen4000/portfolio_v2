@@ -6,8 +6,8 @@ const Skills = (props) => {
   }
   const skill = (list) => {
     if (list) {
-      return list.map((item) => {
-        return <li key={item}><i className="fas fa-circle-notch"></i> {item}<hr/></li>;
+      return list.map((item, i) => {
+        return <li key={i}><i className="fas fa-circle-notch"></i> {item}<hr/></li>;
       });
     }
   };

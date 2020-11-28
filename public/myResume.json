@@ -68,7 +68,7 @@
       "blurb": "Keep track of bugs & issues!",
       "summary": "Issues tracker is a fullstack MERN application that enables your company to track bugs/issues of your projects. This applicaiton uses RESTful route API architecture and is deployed on Heroku.",
       "stack": "This app is devloped using MongdoDB, React, Express, and Node.js.",
-      "image": "issuestracker.jpg",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/issuestracker.jpg",
       "url": "https://reactissuetracker.herokuapp.com/#/"
     },
     {
@@ -84,7 +84,7 @@
       "blurb": "What's your weather like?",
       "summary": "Issues tracker is a fullstack MERN application that enables your company to track bugs/issues of your projects. This applicaiton uses RESTful route API architecture and is deployed on Heroku.",
       "stack": "This app is devloped using MongdoDB, React, Express, and Node.js.",
-      "image": "myforecast.jpg",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/myforecast.jpg",
       "url": "https://drakenguyen4000.github.io/weatherforecast/"
     },
     {
@@ -92,7 +92,7 @@
       "blurb": "Are you ready to battle?",
       "summary": "A two player game where each player takes turns charging up their pokemon's energies and then releasing that energy on their opponent's health bar. The winner is the player that reduces their opponent's health bar to zero.",
       "stack": "This app was built using Javascript, HTML5, and CSS3.",
-      "image": "pokemon.jpg",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/pokemon.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/pokemonbattle/index.html"
     },
     {
@@ -108,7 +108,7 @@
       "blurb": "PSD to HTML Menu",
       "summary": "A responsive webpage that I tranferred directly from a PSD file.",
       "stack": "This site was built using HTML5, CSS3, and grid.",
-      "image": "menu.jpg",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/menu.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/menu/index.html"
     },
     {
@@ -116,7 +116,7 @@
       "blurb": "Dark coffee please?",
       "summary": "A simple cafe page that uses Bootstrap's grid.",
       "stack": "This page was built using HTML5, CSS3, Bootstrap, and jQuery.",
-      "image": "4seasons.jpg",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/4seasons.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/4seasonsdrinks/index.html"
     },
     {
@@ -124,7 +124,7 @@
       "blurb": "Excelsior!",
       "summary": "My first project in learning CSS and HTML. Since I loved comic books, I felt like a dedicated page to Stan Lee would be a fun way to learn code.",
       "stack": "This page was built using HTML5, CSS3, animation, grid, and flexbox.",
-      "image": "stanlee.jpg",
+      "image": "https://drakenguyen4000.github.io/portfolio/5-img/stanlee.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/stanlee/index.html"
     }
   ]

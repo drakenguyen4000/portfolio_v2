@@ -116,6 +116,7 @@ section h1 {
   margin-left: 10%;
   border-bottom: 3px solid #11ABB0;
 }
+
 /*skills list*/
 #Skills ul {
   list-style: none;
@@ -124,13 +125,34 @@ section h1 {
   padding: 5% 10%;
 }
 
-/*underline*/
+/*Skills header underline*/
 #Skills hr {
   color: #5cd4d8;
 }
 
-
+/*Skills bulletpoint*/
 .fa-circle-notch {
   color: #5cd4d8;
   font-size: 75%;
 }
+
+/*---Project---*/
+
+#Projects div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1%;
+}
+
+#Projects img {
+  overflow: hidden;
+  width: 100%;
+}
+
+#Projects div span ul {
+  list-style: none;
+  text-decoration: none;
+  border: blue 1px solid;
+  padding: 5% 5%;
+}
+

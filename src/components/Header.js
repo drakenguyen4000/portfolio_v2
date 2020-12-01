@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const Header = (props) => {
   if (props.data) {
@@ -6,6 +7,7 @@ const Header = (props) => {
   }
   return (
     <section id="Header">
+      <Navbar />
       <div>Hi! I'm {name}.</div>
     </section>
   );

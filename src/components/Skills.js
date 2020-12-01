@@ -7,34 +7,39 @@ const Skills = (props) => {
   const skill = (list) => {
     if (list) {
       return list.map((item, i) => {
-        return <li key={i}><i className="fas fa-circle-notch"></i> {item}<hr/></li>;
+        return (
+          <li key={i}>
+            <i className="fas fa-circle-notch"></i> {item}
+            <hr />
+          </li>
+        );
       });
     }
   };
 
   return (
     <section id="Skills">
-      <h1>Web Development Skills</h1>
-      <div>
-        <span>
-          <h3>
-            <span>Front-End</span>
-          </h3>
-          <ul>{skill(frontend)}</ul>
-        </span>
-        <span>
-          <h3>
-            <span>Back-End</span>
-          </h3>
-          {<ul>{skill(backend)}</ul>}
-        </span>
-        <span>
-          <h3>
-            <span>Technical</span>
-          </h3>
-          <ul>{skill(technical)}</ul>
-        </span>
-      </div>
+        <h2>Web Development Skills</h2>
+        <div>
+          <span>
+            <h3>
+              <span>Front-End</span>
+            </h3>
+            <ul>{skill(frontend)}</ul>
+          </span>
+          <span>
+            <h3>
+              <span>Back-End</span>
+            </h3>
+            {<ul>{skill(backend)}</ul>}
+          </span>
+          <span>
+            <h3>
+              <span>Technical</span>
+            </h3>
+            <ul>{skill(technical)}</ul>
+          </span>
+        </div>
     </section>
   );
 };

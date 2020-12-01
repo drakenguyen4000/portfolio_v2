@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
 
 const App = () => {
   const [allData, setAllData] = useState({
@@ -24,15 +26,12 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div id="container">
-        <Navbar />
         <Header data={main} />
         <About data={main} />
         <Skills data={skills} />
         <Projects data={projects} />
-        {/* <Contact /> */}
+        <Contact data={main} />
         {/* <Footer /> */}
-      </div>
     </BrowserRouter>
   );
 };

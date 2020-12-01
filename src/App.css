@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,18 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*--------------------*/
-#container {
-  padding: 0 10%;
+/* .container {
+  padding: 5% 10%;
   background: rgb(235, 234, 234);
-}
+} */
 
 #navbar {
-  background: rgb(218, 218, 218);
+  /* background: black; */
+  background: transparent;
   display: flex;
   justify-content: center;
+  padding: 1% 0;
 }
 #navbar ul li {
   list-style: none;
@@ -61,9 +69,9 @@
   background-position: center;
   height: 600px;
   padding: 0 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 #Header div {
@@ -74,13 +82,18 @@
   background: rgba(5, 5, 5, 0.7);
 }
 /*---sections---*/
-section h1 {
-  margin-left: 3%;
+section {
+   padding: 5% 10%;
+  /* padding: 3% 0; */
+}
+
+section h2 {
+  margin: 0 0 2% 3%;
 }
 
 /*---About---*/
-#About div {
-  margin: 3%;
+#About p {
+  margin: 3% 0;
 }
 .download_btn {
   background: #1f1e1e;
@@ -105,16 +118,24 @@ section h1 {
   grid-gap: 1%;
 }
 
+#Skills h3 {
+  padding-top: 5%;
+}
+
+#Skills li {
+  padding-top: 4%;
+}
+
 /*Skills card*/
-#Skills div span {
-  background: #2B2B2B;
+#Skills span {
+  background: #2b2b2b;
   color: white;
 }
 
 /*skill header*/
-#Skills span h3 span {
+#Skills h3 span {
   margin-left: 10%;
-  border-bottom: 3px solid #11ABB0;
+  border-bottom: 3px solid #11abb0;
 }
 
 /*skills list*/
@@ -122,7 +143,7 @@ section h1 {
   list-style: none;
   text-decoration: none;
   font-weight: 500;
-  padding: 5% 10%;
+  padding: 15% 10%;
 }
 
 /*Skills header underline*/
@@ -137,22 +158,171 @@ section h1 {
 }
 
 /*---Project---*/
-
-#Projects div {
+/*Project container*/
+#Projects div span {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1%;
 }
 
-#Projects img {
-  overflow: hidden;
+.flip-card {
+  background: transparent;
+  height: 200px;
+  perspective: 1000px;
+  margin-bottom: 4%;
+}
+
+/*card container position front & back*/
+.flip-card-inner {
+  position: relative;
   width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-#Projects div span ul {
-  list-style: none;
+/*flips card horizontally*/
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/*Position the front and back side*/
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/*card-front styling*/
+.flip-card-front {
+  background: #bbb;
+  color: white;
+}
+
+.flip-card-banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background: #2B2B2B;  */
+  background: #f06000;
+  /* background: #5cd4d8;  */
+  width: 100%;
+  height: 22%;
+  border: 4px solid #f7904c;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+}
+
+/* card-front title */
+.flip-card-front i {
+  font-size: 130%;
+  position: relative;
+  animation-name: cursor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+  }
+  10% {
+    left: 4px;
+    top: 0px;
+  }
+  20% {
+    left: 8px;
+    top: 0px;
+  }
+  30% {
+    left: 12px;
+    top: 0px;
+  }
+  40% {
+    left: 16px;
+    top: 0px;
+  }
+  50% {
+    opacity: 1;
+    left: 20px;
+    top: 0px;
+  }
+  60% {
+    left: 24px;
+    top: 0px;
+  }
+  70% {
+    left: 28px;
+    top: 0px;
+  }
+  80% {
+    left: 32px;
+    top: 0px;
+  }
+  90% {
+    left: 36px;
+    top: 0px;
+  }
+  100% {
+    opacity: 0;
+    left: 40px;
+    top: 0px;
+  }
+}
+
+/*card-back styling*/
+.flip-card-back {
+  background: #5cd4d8;
+  color: white;
+  transform: rotateY(180deg);
+  display: grid;
+  margin-top: 1px;
+  padding-top: 5%;
+  font-size: 0.8rem;
+}
+
+/*card-back site & code banner*/
+.flip-card-back div {
+  background: #459ea1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.flip-card-back div a {
   text-decoration: none;
-  border: blue 1px solid;
-  padding: 5% 5%;
+  color: white;
+  font-weight: 600;
 }
 
+.flip-card-back div a:hover {
+  color: #f06000;
+}
+
+/*---Contact---*/
+#Contact {
+  background: #191919;
+  color: white;
+}
+
+#Contact div {
+  margin: 3% 0;
+}
+
+.contact-button {
+  background: #1f1e1e;
+  margin-top: 20px;
+  margin-left: 3%;
+  padding: 1% 2%;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2px;
+}

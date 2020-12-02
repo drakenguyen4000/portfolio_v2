@@ -18,7 +18,7 @@ const Skills = (props) => {
   };
 
   return (
-    <section id="Skills">
+    <section id="Skills" className="js--sections-skills">
         <h2>Web Development Skills</h2>
         <div>
           <span>

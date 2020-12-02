@@ -6,7 +6,7 @@ const About = (props) => {
   }
 
   return (
-    <section id="About">
+    <section id="About" className="js--sections-about">
         <h2>About Me</h2>
         <p>{paragraph1}</p>
         <p>{paragraph2}</p>

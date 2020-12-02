@@ -38,7 +38,7 @@ const Projects = (props) => {
     }
   };
   return (
-    <section id="Projects">
+    <section id="Projects" className="js--sections-projects">
         <h2>Projects</h2>
         <div>
           <span>{list(projects)}</span>

@@ -6,10 +6,12 @@ const Header = (props) => {
     var name = props.data.name
   }
   return (
-    <section id="Header">
+    <div>
       <Navbar />
+      <section id="Header" className="js--sections-home">
       <div>Hi! I'm {name}.</div>
     </section>
+    </div>
   );
 };
 

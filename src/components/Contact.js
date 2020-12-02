@@ -5,7 +5,8 @@ const Contact = (props) => {
     var { contactmessage } = props.data;
   }
   return (
-    <section id="Contact">
+    <section id="Contact" className="js--sections-contact">
+      <a href="#" className="js--scroll-to-home"><i class="fas fa-caret-square-up"></i></a>
       <div className="container">
         <h1>Contact</h1>
         <div>{contactmessage}</div>

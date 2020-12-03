@@ -14,7 +14,6 @@ const Projects = (props) => {
                 <img
                   src={`${item.image}`}
                   alt="project"
-                  // style={{ width: "320px", height: "213px" }}
                   style={{ width: "100%", height: "100%" }}
                 />
                 <div className="flip-card-banner">

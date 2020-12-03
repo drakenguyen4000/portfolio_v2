@@ -51,7 +51,6 @@
   width: 100%;
   text-align: center;
   z-index: 1;
-
 }
 .navbar li {
   list-style: none;
@@ -59,6 +58,8 @@
   font-weight: 600;
   padding: 40px;
   margin-top: 0;
+  text-transform: uppercase;
+
 }
 
 .navbar a {
@@ -85,7 +86,7 @@
 
 #Header div {
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600;
   text-shadow: 1px 1px black;
   background: rgba(5, 5, 5, 0.7);
@@ -120,8 +121,11 @@ section h2 {
 /*---Skills---*/
 
 /*skills container*/
+#Skills {
+  background: #ebeeee;
+}
 #Skills div {
-  background: white;
+  /* background: blue; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 1%;
@@ -170,15 +174,15 @@ section h2 {
 /*Project container*/
 #Projects div span {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1%;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  column-gap: 6%;
 }
 
 .flip-card {
   background: transparent;
-  height: 200px;
+  height: 300px;
   perspective: 1000px;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 
 /*card container position front & back*/
@@ -224,11 +228,12 @@ section h2 {
   display: grid;
   grid-template-columns: 70% 30%;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 /* card-front title */
 .flip-card-front i {
-  font-size: 130%;
+  font-size: 150%;
   position: relative;
   animation-name: cursor;
   animation-duration: 2s;
@@ -293,7 +298,7 @@ section h2 {
   display: grid;
   margin-top: 1px;
   padding-top: 5%;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 /*card-back site & code banner*/
@@ -302,7 +307,7 @@ section h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .flip-card-back div a {

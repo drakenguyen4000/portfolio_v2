@@ -1,0 +1,59 @@
+import React, { useState } from "react";
+const Navbar = () => {
+  const [menu, setMenu] = useState({
+    visible: false,
+  });
+
+  const toggleMenu = () => {
+    setMenu({ visible: !menu.visible });
+  };
+
+  return (
+    <nav id="mainnavbar" className="error_if_added_navbar">
+    <div>
+      <span onClick={toggleMenu}><i class="fas fa-bars"></i></span>
+      {menu.visible && (
+        <ul alignment="right">
+      {menu.visible && ( <div>
+        <li><a href="#" className="js--scroll-to-home">Home</a></li>
+        <li><a href="#" className="js--scroll-to-about">About</a></li>
+        <li><a href="#" className="js--scroll-to-skills">Skills</a></li>
+        <li><a href="#" className="js--scroll-to-projects">Projects</a></li>
+        <li><a href="#" className="js--scroll-to-contact">Contact</a></li></div>)}
+        </ul>
+      )}
+    </div>
+    </nav>
+  );
+};
+
+//https://stackoverflow.com/questions/44341750/reactjs-toggle-button-to-open-menu
+// const Navbar = () => {
+//   const [menu, setMenu] = useState({
+//     visible: false
+//   })
+
+//   const toggleMenu = () => {
+//     setMenu({visible: !menu.visible})
+//   }
+
+//   return (
+//     <nav id="mainnavbar" className="navbar">
+//       <ul>
+//         <button onClick={toggleMenu}>
+//           <i class="fas fa-bars"></i>
+//           {/* <i class="fas fa-times"></i> */}
+//       </button>
+//       {menu.visible && ( <div>
+//         <li><a href="#" className="js--scroll-to-home">Home</a></li>
+//         <li><a href="#" className="js--scroll-to-about">About</a></li>
+//         <li><a href="#" className="js--scroll-to-skills">Skills</a></li>
+//         <li><a href="#" className="js--scroll-to-projects">Projects</a></li>
+//         <li><a href="#" className="js--scroll-to-contact">Contact</a></li></div>)}
+
+//       </ul>
+//     </nav>
+//   );
+// };
+
+export default Navbar;

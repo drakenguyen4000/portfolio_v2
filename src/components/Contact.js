@@ -6,7 +6,7 @@ const Contact = (props) => {
   }
   return (
     <section id="Contact" className="js--sections-contact">
-      <a href="#" className="js--scroll-to-home"><i class="fas fa-caret-square-up"></i></a>
+      <a href="#" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
       <div className="container">
         <h1>Contact</h1>
         <div>{contactmessage}</div>

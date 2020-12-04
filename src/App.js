@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import axios from "axios";
-import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
         <Skills data={skills} />
         <Projects data={projects} />
         <Contact data={main} />
-        {/* <Footer /> */}
+        <Footer data={main}/>
     </BrowserRouter>
   );
 };

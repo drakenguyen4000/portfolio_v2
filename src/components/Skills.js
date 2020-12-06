@@ -21,19 +21,19 @@ const Skills = (props) => {
     <section id="Skills" className="js--sections-skills">
         <h2>Web Development Skills</h2>
         <div>
-          <span>
+          <span className="js--wp-skills-1">
             <h3>
               <span>Front-End</span>
             </h3>
             <ul>{skill(frontend)}</ul>
           </span>
-          <span>
+          <span className="js--wp-skills-2">
             <h3>
               <span>Back-End</span>
             </h3>
             {<ul>{skill(backend)}</ul>}
           </span>
-          <span>
+          <span className="js--wp-skills-3">
             <h3>
               <span>Technical</span>
             </h3>

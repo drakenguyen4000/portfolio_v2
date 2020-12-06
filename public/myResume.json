@@ -1,7 +1,8 @@
 {
   "main": {
     "name": "Drake Nguyen",
-    "title": "Front End Web Developer",
+    "title": "Front-end Web Developer",
+    "greeting": "Hi, I'm Drake Nguyen",
     "description": "Hi my name is Drake. I'm a content integrator turned web developer. I design, build beautiful and responsive web applications with a user-centric design.",
     "image": "profilepic.jpg",
     "bio": {
@@ -15,7 +16,7 @@
     "phone": "714-837-1648",
     "website": "https://drakenguyen4000.github.io/portfolio/",
     "resumelink": "https://drakenguyen4000.github.io/portfolio/7-download/DrakeNguyen-Resume.pdf",
-    "social": [
+    "socialmedia": [
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/drake-nguyen-550ab228/",

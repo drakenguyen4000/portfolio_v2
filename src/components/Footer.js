@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = (props) => {
   if (props.data) {
-    var socialmedia = props.data.social;
-    var name = props.data.name;
+    var { socialmedia } = props.data;
+    var { name } = props.data;
   }
 
   const footer = (socialmedia) => {
@@ -21,7 +21,7 @@ const Footer = (props) => {
   return (
     <footer>
       <div>{footer(socialmedia)}</div>
-      <div>{name}</div>
+      <div>&copy; 2020 Designed by {name}</div>
     </footer>
   );
 };

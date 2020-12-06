@@ -3,24 +3,19 @@ import React from "react";
 const Contact = (props) => {
   if (props.data) {
     var { contactmessage } = props.data;
+    var { email } = props.data;
   }
   return (
     <section id="Contact" className="js--sections-contact">
       <a href="#" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
       <div className="container">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <div>{contactmessage}</div>
-        {/* <button className="contact-button">
-        <a href="mailto:drakeknguyen@yahoo.com">Message Me</a>
-      </button> */}
         <a
           className="contact-button"
-          // target="_blank"
-          // rel="noreferrer"
-          href="mailto:drakeknguyen@yahoo.com"
+          href={`mailto:${email}`}
         >
-          {/* <i className="fas fa-cloud-download-alt"></i>  */}
-          Message Me
+        <i class="fas fa-envelope-open-text"></i> Message Me
         </a>
       </div>
     </section>

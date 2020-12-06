@@ -40,7 +40,7 @@ const Projects = (props) => {
     <section id="Projects" className="js--sections-projects">
         <h2>Projects</h2>
         <div>
-          <span>{list(projects)}</span>
+          <span className="js--wp-projects">{list(projects)}</span>
         </div>
     </section>
   );

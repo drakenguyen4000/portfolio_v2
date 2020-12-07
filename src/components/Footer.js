@@ -19,7 +19,7 @@ const Footer = (props) => {
   };
 
   return (
-    <footer>
+    <footer id="Footer">
       <div>{footer(socialmedia)}</div>
       <div>&copy; 2020 Designed by {name}</div>
     </footer>

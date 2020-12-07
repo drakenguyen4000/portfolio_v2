@@ -20,22 +20,22 @@ const Skills = (props) => {
   return (
     <section id="Skills" className="js--sections-skills">
         <h2>Web Development Skills</h2>
-        <div>
-          <span className="js--wp-skills-1">
+        <div className="skills-panels-group">
+          <span className="js--wp-skills-1 skills-panel">
             <h3>
-              <span>Front-End</span>
+              <span className="skills-title">Front-End</span>
             </h3>
             <ul>{skill(frontend)}</ul>
           </span>
-          <span className="js--wp-skills-2">
+          <span className="js--wp-skills-2 skills-panel">
             <h3>
-              <span>Back-End</span>
+              <span className="skills-title">Back-End</span>
             </h3>
             {<ul>{skill(backend)}</ul>}
           </span>
-          <span className="js--wp-skills-3">
+          <span className="js--wp-skills-3 skills-panel">
             <h3>
-              <span>Technical</span>
+              <span className="skills-title">Technical</span>
             </h3>
             <ul>{skill(technical)}</ul>
           </span>

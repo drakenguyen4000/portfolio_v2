@@ -4,6 +4,7 @@ const Projects = (props) => {
   if (props.data) {
     var projects = props.data;
   }
+
   const list = (project) => {
     if (project) {
       return project.map((item, i) => {
@@ -36,12 +37,11 @@ const Projects = (props) => {
       });
     }
   };
+
   return (
     <section id="Projects" className="js--sections-projects">
-        <h2>Projects</h2>
-        <div>
-          <span className="js--wp-projects">{list(projects)}</span>
-        </div>
+      <h2>Projects</h2>
+      <span className="js--wp-projects">{list(projects)}</span>
     </section>
   );
 };

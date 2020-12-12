@@ -1,42 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -111,7 +72,6 @@
 section {
   padding: 5% 10%;
   min-height: 600px;
-  /* padding: 3% 0; */
 }
 
 section h2 {
@@ -285,13 +245,11 @@ section h2 {
 
 /*---Contact---*/
 #Contact {
-  /* background: rgba(5, 5, 5, 0.7); */
-  /* background: rgba(5, 5, 5, 0.7); */
   background: hsl(204, 47%, 34%);
 }
 
 #Contact div {
-  margin: 3% 0;
+  margin: 3%;
 }
 
 #Contact h2 {
@@ -299,7 +257,6 @@ section h2 {
 }
 
 .contact-btn {
-  background: #1f1e1e;
   margin-top: 20px;
   margin-left: 3%;
   padding: 1% 2%;
@@ -397,11 +354,11 @@ section h2 {
     width: 50px;
     cursor: pointer;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   .burger-nav i {
-    color: #11abb0;
+    color: #fd7b4d;
   }
 
   /*hides navigation list*/
@@ -434,7 +391,42 @@ section h2 {
   .container nav ul li a:hover {
     border: none;
   }
+}
 
+@media only screen and (max-width: 414px) {
+  #Projects span {
+    grid-template-columns: 1fr;
+  }
+  .flip-card {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+ /*---Header---*/
+  .intro-container {
+    font-size: 1.8rem;
+  }
+  
+  .greeting {
+    font-size: 3.1rem;
+  }
+  /*---Project---*/
+  #Projects span {
+    grid-template-columns: 250px;
+  }
+  
+  .flip-card {
+    height: 200px;
+  }
+
+  #Footer i {
+    font-size: 200%;
+  }
+
+  #Footer div:nth-child(2) {
+    font-size: 1rem;
+  }
 }
 
 @keyframes cursor {

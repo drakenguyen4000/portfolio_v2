@@ -1,6 +1,6 @@
 $(document).ready((direction) => {
   /*---Toggle navbar---*/
-  $(".burger-nav").on("click", (direction) => {
+  $(".burger-nav").on("click", () => {
     $(".container nav ul").toggleClass("open");
   });
 

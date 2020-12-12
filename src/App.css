@@ -192,7 +192,7 @@ section h2 {
   background: #bbb;
 }
 
-.flip-card-banner {
+.flip-card-front-banner {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -388,8 +388,9 @@ section h2 {
     display: block;
   }
 
-  .container nav ul li a:hover {
+  .container nav ul li a:active {
     border: none;
+    color: #11abb0;
   }
 }
 
@@ -411,6 +412,7 @@ section h2 {
   .greeting {
     font-size: 3.1rem;
   }
+
   /*---Project---*/
   #Projects span {
     grid-template-columns: 250px;
@@ -420,6 +422,11 @@ section h2 {
     height: 200px;
   }
 
+  .flip-card-front-banner {
+    font-size: .8rem;
+  }
+
+  /*---Footer--*/
   #Footer i {
     font-size: 200%;
   }

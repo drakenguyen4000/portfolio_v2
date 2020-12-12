@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav id="mainnavbar" className="navbar">
-        <a href="/#" className="burger-nav"><i className="fas fa-bars"></i></a>
+        <span className="burger-nav"><i className="fas fa-bars"></i></span>
         <ul className="nav">
           <li><a href="/#" className="js--scroll-to-home">Home</a></li>
           <li><a href="/#" className="js--scroll-to-about">About</a></li>

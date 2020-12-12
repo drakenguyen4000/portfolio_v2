@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import axios from "axios";
 import Header from "./components/Header";
@@ -25,14 +24,14 @@ const App = () => {
   const { main, skills, projects } = allData.resume;
 
   return (
-    <BrowserRouter>
+    <div>
         <Header data={main} />
         <About data={main} />
         <Skills data={skills} />
         <Projects data={projects} />
         <Contact data={main} />
         <Footer data={main}/>
-    </BrowserRouter>
+    </div>
   );
 };
 

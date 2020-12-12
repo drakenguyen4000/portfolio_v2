@@ -8,9 +8,9 @@ const Footer = (props) => {
 
   const footer = (socialmedia) => {
     if (socialmedia) {
-      return socialmedia.map((el) => {
+      return socialmedia.map((el, i) => {
         return (
-          <a href={`${el.url}`}>
+          <a key={i} href={`${el.url}`}>
             <i className={`${el.className}`}></i>
           </a>
         );

@@ -8,7 +8,6 @@ const Contact = (props) => {
   
   return (
     <section id="Contact" className="js--sections-contact">
-      <a href="#" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
       <div>
         <h2>Contact</h2>
         <div>{contactmessage}</div>
@@ -16,9 +15,10 @@ const Contact = (props) => {
           className="contact-btn"
           href={`mailto:${email}`}
         >
-        <i class="fas fa-envelope-open-text"></i> Message Me
+        <i className="fas fa-envelope-open-text"></i> Message Me
         </a>
       </div>
+      <a href="/#" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
     </section>
   );
 };

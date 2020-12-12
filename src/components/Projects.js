@@ -17,7 +17,7 @@ const Projects = (props) => {
                   alt="project"
                   style={{ width: "100%", height: "100%" }}
                 />
-                <div className="flip-card-banner">
+                <div className="flip-card-front-banner">
                   <h4>{item.title}</h4>
                   <i className="fas fa-mouse-pointer"></i>
                 </div>

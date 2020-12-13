@@ -65,6 +65,13 @@ $(document).ready((direction) => {
     }
   );
 
+  $(".js--wp-about-pic").waypoint((direction)=>{
+    $(".js--wp-about-pic").addClass("animated fadeInDown");
+  },
+  { 
+    offset: "80%",
+  }
+  )
   /*---Skills panel flip---*/
   const panel = [1, 2, 3];
 

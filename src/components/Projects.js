@@ -23,10 +23,11 @@ const Projects = (props) => {
                 </div>
               </div>
               <div className="flip-card-back">
-                <h4>{item.blurb}</h4>
-                <p>{item.summary}</p>
-                <p>{item.stack}</p>
-                <div>
+                  <h4>{item.blurb}</h4>
+                  <p>{item.summary}</p>
+                  <br/>
+                  <p>{item.stack}</p>
+                <div className="flip-card-back-banner">
                   <a href={`${item.url}`}>Site</a>
                   <a href={`${item.code}`}>Code</a>
                 </div>

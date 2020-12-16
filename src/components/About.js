@@ -16,7 +16,7 @@ const About = (props) => {
           <p>{paragraph3}</p>
           <p>{paragraph4}</p>
         </div>
-        <div className="about-container-2">
+        <div className="js--wp-about-pic about-container-pic">
           <img className="profile-pic" />
           <a
             className="download_btn"

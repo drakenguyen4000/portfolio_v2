@@ -10,11 +10,11 @@ const Header = (props) => {
   return (
     <div>
       <Navbar />
-      <section id="Header" className="js--sections-home">
+      <section id="Home" className="js--sections-home">
         <div className="intro-container">
           <p className="js--wp-home greeting">{name}</p>
           <span>{title}</span>
-          <a href="/#" className="js--scroll-to-about chevron-button">
+          <a href="#About" className="js--scroll-to-about chevron-button">
             <i className="fas fa-chevron-circle-down"></i>
           </a>
         </div>

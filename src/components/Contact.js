@@ -18,7 +18,7 @@ const Contact = (props) => {
         <i className="fas fa-envelope-open-text"></i> Message Me
         </a>
       </div>
-      <a href="/#" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
+      <a href="#home" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
     </section>
   );
 };

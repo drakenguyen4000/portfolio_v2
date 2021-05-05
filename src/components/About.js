@@ -2,7 +2,7 @@ import React from "react";
 
 const About = (props) => {
   if (props.data) {
-    var { paragraph1, paragraph2, paragraph3, paragraph4 } = props.data.bio;
+    var { paragraph1, paragraph2, paragraph3 } = props.data.bio;
     var { resumelink } = props.data;
   }
 
@@ -14,7 +14,6 @@ const About = (props) => {
           <p>{paragraph1}</p>
           <p>{paragraph2}</p>
           <p>{paragraph3}</p>
-          <p>{paragraph4}</p>
         </div>
         <div className="js--wp-about-pic about-container-pic">
           <img className="profile-pic" />

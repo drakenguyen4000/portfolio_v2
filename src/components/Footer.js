@@ -21,7 +21,7 @@ const Footer = (props) => {
   return (
     <footer id="Footer">
       <div>{footer(socialmedia)}</div>
-      <div>&copy; 2020 Designed by {name}</div>
+      <div>&copy; 2021 Designed by {name}</div>
     </footer>
   );
 };

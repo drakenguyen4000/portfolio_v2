@@ -5,20 +5,21 @@ const Contact = (props) => {
     var { contactmessage } = props.data;
     var { email } = props.data;
   }
-  
+
   return (
     <section id="Contact" className="js--sections-contact">
-      <div>
+      <div className="contact-wrapper">
         <h2>Contact</h2>
-        <div>{contactmessage}</div>
-        <a
-          className="contact-btn"
-          href={`mailto:${email}`}
-        >
-        <i className="fas fa-envelope-open-text"></i> Message Me
-        </a>
+        <div className="contact-message">{contactmessage}</div>
+        <div>
+          <a className="contact-btn" href={`mailto:${email}`}>
+            <i className="fas fa-envelope-open-text"></i> Message Me
+          </a>
+        </div>
       </div>
-      <a href="#home" className="js--scroll-to-home"><i className="fas fa-caret-square-up"></i></a>
+      <a href="#home" className="js--scroll-to-home">
+        <i className="fas fa-caret-square-up"></i>
+      </a>
     </section>
   );
 };

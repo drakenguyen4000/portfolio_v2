@@ -30,6 +30,26 @@
 
 .navbar a:hover {
   color: #11abb0;
+  transition: color 250ms;
+}
+
+.navbar a:after {
+  display: block;
+  content: "";
+  padding-bottom: 2px;
+  border-bottom: 2px solid #fd7b4d;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navbar a:hover:after {
+  transform: scaleX(1);
+}
+.navbar a.fromRight:after {
+  transform-origin: 100% 50%;
+}
+.navbar a.fromLeft:after {
+  transform-origin: 0% 50%;
 }
 
 /*adds black background to navbar when scrolling*/
@@ -56,6 +76,14 @@
   display: block;
 }
 
+.fa-chevron-circle-down {
+  color: #fd7b4d;
+}
+.fa-chevron-circle-down:hover {
+  color: #3a8486;
+  transition: color 250ms;
+}
+
 .intro-container {
   font-size: 2.5rem;
   font-weight: 600;
@@ -76,7 +104,7 @@ section {
 
 section h2 {
   margin: 0 0 2% 3%;
-  color: #1f1e1e;
+  color: #fd7b4d;
 }
 
 /*---About---*/
@@ -114,7 +142,7 @@ section h2 {
   background: #1f1e1e;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 200px;
   background: #fd7b4d;
   display: flex;
   justify-content: center;
@@ -123,6 +151,11 @@ section h2 {
 
 .download_btn:hover {
   background: #3a8486;
+  transition: background-color 250ms;
+}
+
+.fa-cloud-download-alt {
+  margin-right: .5rem;
 }
 
 /*---Skills---*/
@@ -181,7 +214,7 @@ section h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   -moz-column-gap: 6%;
-       column-gap: 6%;
+  column-gap: 6%;
 }
 
 .flip-card {
@@ -213,7 +246,7 @@ section h2 {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 /*card-front styling*/
@@ -239,32 +272,42 @@ section h2 {
   font-size: 150%;
   position: relative;
   -webkit-animation-name: cursor;
-          animation-name: cursor;
+  animation-name: cursor;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 /*card-back styling*/
 .flip-card-back {
-  background: #2b2b2b;
-
+  background: #3c6b8a;
   transform: rotateY(180deg) translateZ(1px);
   padding-top: 3%;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 }
 
-.flip-card-back h4, .flip-card-back p {
-  padding: 0 3%;
+.flip-card-back h4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: #fd7b4d;
+}
+
+.flip-card-back h4,
+.flip-card-back p {
+  padding: 3%;
   margin-bottom: 3%;
-  text-align: justify;
+  text-align: left;
 }
 
+.flip-card-back p {
+  position: relative;
+  top: 10%;
+}
 /*card-back site & code banner*/
 .flip-card-back-banner {
   background: #459ea1;
-  border: 4px solid #5febf0;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -289,6 +332,11 @@ section h2 {
   background: #2e5f7f;
 }
 
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 #Contact div {
   margin: 3%;
 }
@@ -298,22 +346,27 @@ section h2 {
 }
 
 .contact-btn {
-  margin-top: 20px;
-  margin-left: 3%;
   padding: 1% 2%;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 200px;
   background: #fd7b4d;
 }
 
 .contact-btn:hover {
   background: #3a8486;
+  transition: background-color 250ms;
 }
 
 .fa-caret-square-up {
   font-size: 250%;
   float: right;
+  color: #fd7b4d;
+}
+
+.fa-caret-square-up:hover {
+  color: #3a8486;
+  transition: color 250ms;
 }
 
 /*---Footer---*/
@@ -346,35 +399,36 @@ section h2 {
 .js--wp-skills-1.animated {
   opacity: 1;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 .js--wp-skills-2.animated {
   opacity: 1;
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 .js--wp-skills-3.animated {
   opacity: 1;
   -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation-delay: 3s;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 .js--wp-about-pic {
   opacity: 0;
 }
 
-.js--wp-about-pic.animated, .js--wp-about.animated {
+.js--wp-about-pic.animated,
+.js--wp-about.animated {
   opacity: 1;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 /*skills*/
@@ -383,10 +437,10 @@ section h2 {
 }
 .js--wp-projects.animated {
   opacity: 1;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 @media only screen and (max-width: 900px) {
@@ -454,7 +508,11 @@ section h2 {
 
   /*--cards--*/
   .flip-card-back {
-    font-size: .9rem;
+    font-size: 0.9rem;
+  }
+
+  .contact-btn {
+    padding: 2% 4%;
   }
 }
 
@@ -471,19 +529,25 @@ section h2 {
     width: 90%;
     text-align: left;
   }
-
   .about-container {
     grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
   }
-
+  .contact-btn {
+    margin-top: 20px;
+    margin-left: 3%;
+    padding: 1% 2%;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 200px;
+    background: #fd7b4d;
+  }
 }
 
 @media only screen and (max-width: 320px) {
- /*---Header---*/
+  /*---Header---*/
   .intro-container {
     font-size: 1.8rem;
   }
-  
   .greeting {
     font-size: 3.1rem;
   }
@@ -492,13 +556,11 @@ section h2 {
   #Projects span {
     grid-template-columns: 250px;
   }
-  
   .flip-card {
     height: 200px;
   }
-
   .flip-card-front-banner {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   /*---Footer--*/

@@ -3,13 +3,12 @@
     "name": "Drake Nguyen",
     "title": "Front-end Web Developer",
     "greeting": "Hi, I'm Drake Nguyen",
-    "description": "Hi my name is Drake. I'm a content integrator turned web developer. I design, build beautiful and responsive web applications with a user-centric design.",
     "image": "profilepic.jpg",
     "bio": {
-      "paragraph1": "I am a developer based in Westminster, California US. I am a front-end web developer with knowledge of backend.  I am a naturally curious, problem solver, who enjoys to continuously learn new technologies. My current stack is MERN; however, I am opened to learning any new technologies necessary to get the job done. My passion is traveling, trying new foods, and building applications that meet people's needs.",
+      "paragraph1": "I am an IT technician turned web developer. I am a naturally curious, problem solver, who enjoys to learning new technologies.  I build beautiful and responsive web applications with a user-centric design.  I am a front-end web developer with knowledge of backend.   My current stack is MERN; however, I am open to learning any new technologies necessary to get the job done. My passion is traveling, trying new foods, and building applications that meet people's needs.",
       "paragraph2":
-      "Currently I work as IT support.  I have been in the Information Technology industry for 5 years.  My love for learning code came from my 4 years working as content integrator at Collins Aerospace in their interactive map department Airshow. My main duty was configuring inflight map software for passengers on Virgin, Korean Air, Etihad, and other major commercial carriers. I worked on database management, updated css stylesheets to ensure mobile/app responsiveness, quality testing, participated in user interface designs, and content creation.",
-      "paragraph3": " I am very passionate, proud, and driven in my pursuit of becoming a developer.  I have spent the pass year learning, building projects, and improving on my coding skills.  So, are you looking for a hard-working, passionate developer that enjoys collaborating with others to create practical web applications? I would love to work with likeminded individuals on amazing web projects."
+      "Currently, I manage my company's equipment and troubleshoot IT related issues.  I have been in the Information Technology industry for 5 years.  Althought I have always been technical, my love for learning code came from my 4 years working as content integrator at Collins Aerospace in their interactive maps department Airshow. My main duty was configuring inflight map content for passengers on major commercial airlines.  I worked on database management, updated css stylesheets for mobile/app responsiveness, performed quality testing, participated in user interface designs of GUI, and content creation.  A lot of things that related to web development",
+      "paragraph3": "I took up learning web development because I love to build websites and applications. I have spent the pass year learning Colt Steele's The Web Developer Bootcamp and Stephen Grider's Modern React with Redux, along with other courses.  From that foundation, I started building my own projects and improving my coding skills.  After completing 3 fullstack apps, I am ready to contribute to a company looking for passionate developers.  Along with passion; however, a developer should also have determination to find creative solutions to problems. So if you are looking for a hard-working, passionate developer that enjoys collaborating with others to create practical web applications?  Contact me.  I would love to work with likeminded individuals on creating web projects."
     },
     "contactmessage": "If you want to collaborate with me on any projects or have any questions about my projects, feel free to email!",
     "email": "drakeknguyen@yahoo.com",
@@ -68,7 +67,7 @@
       "blurb": "A online store!",
       "summary": "eApparel is a fullstack MERN application that allows shoppers to browse the latest fashion, order what they love, and track their past order history.  The app is built using MERN stack, utilizing Redux state management.",
       "stack": "This app is developed using MongdoDB, React/Redux, Express, Node.js, and Stripe payment.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/eapparel.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/eapparel_z32s2l.jpg",
       "url": "https://eapparelstore.herokuapp.com/#/",
       "code": "https://github.com/drakenguyen4000/eapparelstore"
     },
@@ -77,7 +76,7 @@
       "blurb": "An app to track bugs & other issues!",
       "summary": "Issues tracker is a fullstack MERN application that enables your company to track bugs/issues of your projects. This applicaiton uses RESTful route API architecture and is deployed on Heroku.",
       "stack": "This app is developed using MongdoDB, React, Express, and Node.js.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/issuestracker.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/issuestracker_cho0ev.jpg",
       "url": "https://reactissuetracker.herokuapp.com/#/",
       "code": "https://github.com/drakenguyen4000/issue_tracker"
     },
@@ -86,7 +85,7 @@
       "blurb": "Share a dish you like!",
       "summary": "Foodseeker is a fullstack, dynamic application that allows users to create their own profile to share and discuss unique, endearing dishes from around in the world. This app uses RESTful route API architecture and is deployed on Heroku.",
       "stack": "This app is created using Express, Node.js, EJS, and Bootstrap, utilizing MongdoDB database.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/foodseeker.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/foodseeker_aedm1h.jpg",
       "url": "https://foodseekerapp.herokuapp.com/",
       "code": "https://github.com/drakenguyen4000/foodseeker"
     },
@@ -95,7 +94,7 @@
       "blurb": "What's your weather like?",
       "summary": "A weather forecaster that searches by gps location or user input. The app uses AJAX to fetch api data from Weather Bit to generate a five day weather forecast.",
       "stack": "This app was built using React, Javascript, HTML5, and CSS3.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/myforecast.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/myforecast_clvv3r.jpg",
       "url": "https://drakenguyen4000.github.io/weatherforecast/",
       "code": "https://github.com/drakenguyen4000/weatherforecast"
     },
@@ -104,7 +103,7 @@
       "blurb": "Are you ready to battle?",
       "summary": "A two player game where each player takes turns charging up their pokemon's energies by dice roll and then releasing that energy on their opponent's health bar. The winner is the player that reduces their opponent's health bar to zero.",
       "stack": "This app was built using Javascript, HTML5, and CSS3.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/pokemon.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258355/pokemon_akwqkt.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/pokemonbattle/index.html",
       "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/pokemonbattle"
     },
@@ -113,7 +112,7 @@
       "blurb": "Looking to relax?",
       "summary": "A travel site I built that offers tours of different regions of Vietnam. Since I enjoy traveling there so much, I decided to build a project around it.",
       "stack": "This site was built using Bootstrap, Javascript, JQuery, HTML5, and CSS3.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/vietnamtravels.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258354/vietnamtravels_rvqklk.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/vietnamtravels/index.html",
       "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/vietnamtravels"
     },
@@ -122,7 +121,7 @@
       "blurb": "PSD to HTML Menu",
       "summary": "A responsive webpage that I tranferred directly from a PSD file.",
       "stack": "This site was built using HTML5, CSS3, and grid.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/menu.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/menu_qyvojd.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/menu/index.html",
       "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/menu"
     },
@@ -131,7 +130,7 @@
       "blurb": "Dark coffee please?",
       "summary": "A simple cafe page that uses Bootstrap's grid.",
       "stack": "This page was built using HTML5, CSS3, Bootstrap, and jQuery.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/4seasons.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258354/4seasons_bpelkj.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/4seasonsdrinks/index.html",
       "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/4seasonsdrinks"
     },
@@ -140,7 +139,7 @@
       "blurb": "Excelsior!",
       "summary": "My first project in learning CSS and HTML. Since I loved comic books, I felt like a dedicated page to Stan Lee would be a fun way to learn code.",
       "stack": "This page was built using HTML5, CSS3, animation, grid, and flexbox.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/stanlee.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620259147/stanlee_eobur6.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/4-projects/stanlee/index.html",
       "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/stanlee"
     },
@@ -149,7 +148,7 @@
       "blurb": "My First Portfolio",
       "summary": "From inception to implementation, I meticulously applied what I learned in my web development courses and from my prior work experience into building this portfolio.",
       "stack": "This portfolio site was built using HTML, CSS, and SASS.",
-      "image": "https://drakenguyen4000.github.io/portfolio/5-img/portfolio_v1.jpg",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620259109/portfolio_v1_prprcu.jpg",
       "url": "https://drakenguyen4000.github.io/portfolio/index.html",
       "code": "https://github.com/drakenguyen4000/portfolio"
     }

@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #ffffff;
 }
 
@@ -30,6 +31,8 @@
 
 .navbar a:hover {
   color: #11abb0;
+  -webkit-transition: color 250ms;
+  -o-transition: color 250ms;
   transition: color 250ms;
 }
 
@@ -38,23 +41,37 @@
   content: "";
   padding-bottom: 2px;
   border-bottom: 2px solid #fd7b4d;
-  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  -o-transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .navbar a:hover:after {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .navbar a.fromRight:after {
-  transform-origin: 100% 50%;
+  -webkit-transform-origin: 100% 50%;
+      -ms-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
 }
 .navbar a.fromLeft:after {
-  transform-origin: 0% 50%;
+  -webkit-transform-origin: 0% 50%;
+      -ms-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
 }
 
 /*adds black background to navbar when scrolling*/
 .navbar.scrolled {
   background: rgba(7, 9, 14, 0.8);
+  -webkit-transition: background 800ms;
+  -o-transition: background 800ms;
   transition: background 800ms;
 }
 
@@ -66,9 +83,15 @@
   background-image: url("./img/dan-meyers-utFO-7TScD4-unsplash.jpg");
   background-position: center;
   padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
 }
 
@@ -81,6 +104,8 @@
 }
 .fa-chevron-circle-down:hover {
   color: #3a8486;
+  -webkit-transition: color 250ms;
+  -o-transition: color 250ms;
   transition: color 250ms;
 }
 
@@ -144,13 +169,21 @@ section h2 {
   text-decoration: none;
   border-radius: 200px;
   background: #fd7b4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .download_btn:hover {
   background: #3a8486;
+  -webkit-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
   transition: background-color 250ms;
 }
 
@@ -214,13 +247,15 @@ section h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   -moz-column-gap: 6%;
-  column-gap: 6%;
+  -webkit-column-gap: 6%;
+          column-gap: 6%;
 }
 
 .flip-card {
   background: transparent;
   height: 300px;
-  perspective: 1000px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
   margin-bottom: 10%;
 }
 
@@ -230,13 +265,19 @@ section h2 {
   width: 100%;
   height: 100%;
   text-align: center;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  -o-transition: transform 0.4s;
   transition: transform 0.4s;
-  transform-style: preserve-3d;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
 /*flips card horizontally*/
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 /*Position the front and back side*/
@@ -264,7 +305,9 @@ section h2 {
   border: 4px solid #f1ba95;
   display: grid;
   grid-template-columns: 70% 30%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*card-front title */
@@ -282,7 +325,8 @@ section h2 {
 /*card-back styling*/
 .flip-card-back {
   background: #3c6b8a;
-  transform: rotateY(180deg) translateZ(1px);
+  -webkit-transform: rotateY(180deg) translateZ(1px);
+          transform: rotateY(180deg) translateZ(1px);
   padding-top: 3%;
   font-size: 0.95rem;
 }
@@ -314,7 +358,9 @@ section h2 {
   padding: 3% 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 1.2rem;
 }
 
@@ -333,8 +379,13 @@ section h2 {
 }
 
 .contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #Contact div {
@@ -355,6 +406,8 @@ section h2 {
 
 .contact-btn:hover {
   background: #3a8486;
+  -webkit-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
   transition: background-color 250ms;
 }
 
@@ -366,6 +419,8 @@ section h2 {
 
 .fa-caret-square-up:hover {
   color: #3a8486;
+  -webkit-transition: color 250ms;
+  -o-transition: color 250ms;
   transition: color 250ms;
 }
 
@@ -454,6 +509,8 @@ section h2 {
 
   .navbar.scrolled {
     background: transparent;
+    -webkit-transition: background 800ms;
+    -o-transition: background 800ms;
     transition: background 800ms;
   }
 

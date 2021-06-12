@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = (props) => {
   if (props.data) {
-    var { frontend, backend, technical } = props.data;
+    var { language, skills, tools } = props.data;
   }
   const skill = (list) => {
     if (list) {
@@ -23,21 +23,21 @@ const Skills = (props) => {
         <div className="skills-panels-group">
           <span className="js--wp-skills-1 skills-panel">
             <h3>
-              <span className="skills-title">Front-End</span>
+              <span className="skills-title">Language / Framework / Library</span>
             </h3>
-            <ul>{skill(frontend)}</ul>
+            <ul>{skill(language)}</ul>
           </span>
           <span className="js--wp-skills-2 skills-panel">
             <h3>
-              <span className="skills-title">Back-End</span>
+              <span className="skills-title">Technical Skills</span>
             </h3>
-            {<ul>{skill(backend)}</ul>}
+            {<ul>{skill(skills)}</ul>}
           </span>
           <span className="js--wp-skills-3 skills-panel">
             <h3>
-              <span className="skills-title">Technical</span>
+              <span className="skills-title">Tools</span>
             </h3>
-            <ul>{skill(technical)}</ul>
+            <ul>{skill(tools)}</ul>
           </span>
         </div>
     </section>

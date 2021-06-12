@@ -1,9 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /*---Navbar---*/
@@ -159,36 +163,6 @@ section h2 {
   background-size: cover;
   min-width: 260px;
   height: 300px;
-}
-
-.download_btn {
-  width: 200px;
-  height: 50px;
-  background: #1f1e1e;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 200px;
-  background: #fd7b4d;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.download_btn:hover {
-  background: #3a8486;
-  -webkit-transition: background-color 250ms;
-  -o-transition: background-color 250ms;
-  transition: background-color 250ms;
-}
-
-.fa-cloud-download-alt {
-  margin-right: .5rem;
 }
 
 /*---Skills---*/
@@ -382,10 +356,28 @@ section h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.left-container {
+  width: 500px;
+}
+
+.right-container {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #Contact div {
@@ -396,19 +388,57 @@ section h2 {
   color: #ffffff;
 }
 
-.contact-btn {
-  padding: 1% 2%;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 200px;
-  background: #fd7b4d;
-}
-
 .contact-btn:hover {
   background: #3a8486;
   -webkit-transition: background-color 250ms;
   -o-transition: background-color 250ms;
   transition: background-color 250ms;
+}
+
+.download_btn, .contact-btn {
+  width: 200px;
+  height: 50px;
+  background: #1f1e1e;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 200px;
+  background: #fd7b4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download_btn:hover {
+  background: #3a8486;
+  -webkit-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
+  transition: background-color 250ms;
+}
+
+.fa-cloud-download-alt {
+  margin-right: .5rem;
+}
+
+.contact-btn i {
+  margin-right: .5rem;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-media i {
+  font-size: 300%;
 }
 
 .fa-caret-square-up {
@@ -427,20 +457,20 @@ section h2 {
 /*---Footer---*/
 #Footer {
   background: #191919;
-  text-align: center;
-  height: 140px;
+  height: 40px;
   text-transform: uppercase;
-}
-
-#Footer i {
-  font-size: 300%;
-  margin: 1%;
-  margin-top: 30px;
-}
-
-#Footer div:nth-child(2) {
   font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 
 /*----animation----*/
 
@@ -621,11 +651,8 @@ section h2 {
   }
 
   /*---Footer--*/
-  #Footer i {
-    font-size: 200%;
-  }
 
-  #Footer div:nth-child(2) {
+  #Footer div {
     font-size: 1rem;
   }
 }

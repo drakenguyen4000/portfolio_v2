@@ -3,7 +3,6 @@ import React from "react";
 const About = (props) => {
   if (props.data) {
     var { paragraph1, paragraph2, paragraph3 } = props.data.bio;
-    var { resumelink } = props.data;
   }
 
   return (
@@ -17,14 +16,6 @@ const About = (props) => {
         </div>
         <div className="js--wp-about-pic about-container-pic">
           <img className="profile-pic" />
-          <a
-            className="download_btn"
-            target="_blank"
-            rel="noreferrer"
-            href={`${resumelink}`}
-          >
-            <i className="fas fa-cloud-download-alt"></i> Download Resume
-          </a>
         </div>
       </div>
     </section>

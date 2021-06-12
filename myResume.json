@@ -29,36 +29,34 @@
     ]
   },
   "skills": {
-    "frontend": [
+    "language": [
       "React / Redux",
-      "Javascript / jQuery",
+      "Javascript ES6",
       "HTML5",
       "CSS3 / Flexbox / Grid",
       "Bootstrap 3/4",
       "SASS",
-      "UI / UX Design",
-      "Photoshop"
-    ],
-    "backend": [
-      "Node.js / npm",
+      "Node / npm",
       "Express",
-      "MySQL",
       "MongoDB / Mongoose",
+      "MySQL"
+    ],
+    "skills": [
+      "Troubleshoot & Debugging Software",
+      "Quality Assurance & Testing",
+      "Content / Database Management & Configuration",
       "RESTful API",
+      "Creating Responsive Websites",
+      "PSD Model Conversion",
+      "Multi-tasking Projects",
+      "Attention to Detail & Creative Eye"
+    ],
+    "tools": [
       "Git / GitHub",
       "CLI (Linux)",
       "Jira",
-      "Visual Studio Code"
-    ],
-    "technical": [
-      "Creating Responsive Websites",
-      "Attention to Detail & Creative Eye",
-      "PSD Model Conversion",
-      "Content/Database Management & Configuration",
-      "Troubleshoot & Debugging Software",
-      "Quality Assurance & Testing",
-      "Multi-tasking Projects",
-      "Collaboration with Engineers & Project Managers"
+      "Visual Studio Code",
+      "Photoshop"
     ]
   },
   "projects": [

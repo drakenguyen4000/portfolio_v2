@@ -620,7 +620,6 @@ section h2 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
   }
   .contact-btn {
-    margin-top: 20px;
     padding: 1% 2%;
     font-weight: 600;
     text-decoration: none;

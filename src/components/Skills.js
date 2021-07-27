@@ -23,7 +23,7 @@ const Skills = (props) => {
         <div className="skills-panels-group">
           <span className="js--wp-skills-1 skills-panel">
             <h3>
-              <span className="skills-title">Language / Framework / Library</span>
+              <span className="skills-title">Lang/Framework/Library</span>
             </h3>
             <ul>{skill(language)}</ul>
           </span>

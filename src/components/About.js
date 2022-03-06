@@ -2,7 +2,7 @@ import React from "react";
 
 const About = (props) => {
   if (props.data) {
-    var { paragraph1, paragraph2, paragraph3 } = props.data.bio;
+    var { paragraph1 } = props.data.bio;
   }
 
   return (

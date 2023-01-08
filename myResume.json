@@ -3,7 +3,6 @@
     "name": "Drake Nguyen",
     "title": "Web Developer",
     "greeting": "Hi, I'm Drake Nguyen",
-    "image": "profilepic.jpg",
     "bio": {
       "paragraph1": "I am web developer who specializes in building responsive fullstack websites using MERN stack.  I'm trained in these courses: The Web Developer Bootcamp, The Complete JavaScript Course 2020, Modern React with Redux, and Building Responsive Real World Websites: HTML5 and CSS3. I would be happy to work with you on developing your online presence."
     },
@@ -57,11 +56,20 @@
     ]
   },
   "projects": [
+     {
+      "title": "Pokemon Battle Console",
+      "blurb": "For best effect, play on your mobile device.",
+      "summary": "Pokemon Battle Console is a mobile Pokemon battle game built using vanilla javascript and mobile first design.",
+      "stack": "This app was built from pure vanilla javascript.",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1673068552/pokemonbattleconsole_ilslba.jpg",
+      "url": "https://drakenguyen4000.github.io/pokemonbattleconsole/#/",
+      "code": "https://github.com/drakenguyen4000/pokemon_battles/tree/main/client"
+    },
     {
       "title": "eApparel",
       "blurb": "A online store!",
       "summary": "eApparel is a fullstack MERN application that allows shoppers to browse the latest fashion, order what they love, and track their past order history.  The app is built using MERN stack, utilizing Redux state management.",
-      "stack": "This app is developed using MongdoDB, React/Redux, Express, Node.js, and Stripe payment.",
+      "stack": "This app was developed using MongdoDB, React/Redux, Express, Node.js, and Stripe payment.",
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/eapparel_z32s2l.jpg",
       "url": "https://eapparelstore.herokuapp.com/#/",
       "code": "https://github.com/drakenguyen4000/eapparelstore"
@@ -76,15 +84,6 @@
       "code": "https://github.com/drakenguyen4000/issue_tracker"
     },
     {
-      "title": "Food Seeker",
-      "blurb": "Share a dish you like!",
-      "summary": "Foodseeker is a fullstack, dynamic application that allows users to create their own profile to share and discuss unique, endearing dishes from around in the world. This app uses RESTful route API architecture and is deployed on Heroku.",
-      "stack": "This app is created using Express, Node.js, EJS, and Bootstrap, utilizing MongdoDB database.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/foodseeker_aedm1h.jpg",
-      "url": "https://foodseekerapp.herokuapp.com/",
-      "code": "https://github.com/drakenguyen4000/foodseeker"
-    },
-    {
       "title": "Weather Forecast",
       "blurb": "What's your weather like?",
       "summary": "A weather forecaster that searches by gps location or user input. The app uses AJAX to fetch api data from Weather Bit to generate a five day weather forecast.",
@@ -92,60 +91,6 @@
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/myforecast_clvv3r.jpg",
       "url": "https://drakenguyen4000.github.io/weatherforecast/",
       "code": "https://github.com/drakenguyen4000/weatherforecast"
-    },
-    {
-      "title": "Pokemon Battle Game",
-      "blurb": "Are you ready to battle?",
-      "summary": "A two player game where each player takes turns charging up their pokemon's energies by dice roll and then releasing that energy on their opponent's health bar. The winner is the player that reduces their opponent's health bar to zero.",
-      "stack": "This app was built using Javascript, HTML5, and CSS3.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258355/pokemon_akwqkt.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/pokemonbattle/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/pokemonbattle"
-    },
-    {
-      "title": "Vietnam Travels",
-      "blurb": "Looking to relax?",
-      "summary": "A travel site I built that offers tours of different regions of Vietnam. Since I enjoy traveling there so much, I decided to build a project around it.",
-      "stack": "This site was built using Bootstrap, Javascript, JQuery, HTML5, and CSS3.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258354/vietnamtravels_rvqklk.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/vietnamtravels/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/vietnamtravels"
-    },
-    {
-      "title": "Italian Menu",
-      "blurb": "PSD to HTML Menu",
-      "summary": "A responsive webpage that I tranferred directly from a PSD file.",
-      "stack": "This site was built using HTML5, CSS3, and grid.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/menu_qyvojd.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/menu/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/menu"
-    },
-    {
-      "title": "4 Seasons Drinks",
-      "blurb": "Dark coffee please?",
-      "summary": "A simple cafe page that uses Bootstrap's grid.",
-      "stack": "This page was built using HTML5, CSS3, Bootstrap, and jQuery.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258354/4seasons_bpelkj.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/4seasonsdrinks/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/4seasonsdrinks"
-    },
-    {
-      "title": "Stan Lee Bio",
-      "blurb": "Excelsior!",
-      "summary": "My first project in learning CSS and HTML. Since I loved comic books, I felt like a dedicated page to Stan Lee would be a fun way to learn code.",
-      "stack": "This page was built using HTML5, CSS3, animation, grid, and flexbox.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620259147/stanlee_eobur6.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/stanlee/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/stanlee"
-    },
-    {
-      "title": "Porfolio Version 1.0",
-      "blurb": "My First Portfolio",
-      "summary": "From inception to implementation, I meticulously applied what I learned in my web development courses and from my prior work experience into building this portfolio.",
-      "stack": "This portfolio site was built using HTML, CSS, and SASS.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620259109/portfolio_v1_prprcu.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio"
     }
   ]
 }

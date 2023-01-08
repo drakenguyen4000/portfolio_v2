@@ -3,7 +3,6 @@
     "name": "Drake Nguyen",
     "title": "Web Developer",
     "greeting": "Hi, I'm Drake Nguyen",
-    "image": "profilepic.jpg",
     "bio": {
       "paragraph1": "I am web developer who specializes in building responsive fullstack websites using MERN stack.  I'm trained in these courses: The Web Developer Bootcamp, The Complete JavaScript Course 2020, Modern React with Redux, and Building Responsive Real World Websites: HTML5 and CSS3. I would be happy to work with you on developing your online presence."
     },
@@ -59,7 +58,7 @@
   "projects": [
      {
       "title": "Pokemon Battle Console",
-      "blurb": "A game design in the form of a pokedex console.",
+      "blurb": "For best effect, play on your mobile device.",
       "summary": "Pokemon Battle Console is a mobile Pokemon battle game built using vanilla javascript and mobile first design.",
       "stack": "This app was built from pure vanilla javascript.",
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1673068552/pokemonbattleconsole_ilslba.jpg",

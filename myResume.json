@@ -27,7 +27,7 @@
   "skills": {
     "language": [
       "React / Redux",
-      "Javascript ES6",
+      "Javascript ES6 / DOM Manipulation",
       "HTML5",
       "CSS3 / Flexbox / Grid",
       "Bootstrap 3/4",
@@ -45,14 +45,16 @@
       "Create Responsive Websites",
       "PSD Model Conversion",
       "Multi-task Projects",
-      "Attention to Detail & Creative Eye"
+      "Attention to Detail & Creative Eye",
+      "Wireframe"
     ],
     "tools": [
       "Git / GitHub",
       "CLI (Linux)",
       "Jira",
       "Visual Studio Code",
-      "Photoshop"
+      "Photoshop", 
+      "Figma"
     ]
   },
   "projects": [
@@ -60,7 +62,7 @@
       "title": "Pokemon Battle Console",
       "blurb": "For best effect, play on your mobile device.",
       "summary": "Pokemon Battle Console is a mobile Pokemon battle game built using vanilla javascript and mobile first design.",
-      "stack": "This app was built from pure vanilla javascript.",
+      "stack": "I used Figma to design the wireframe and then built the application in vanilla javascript.",
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1673068552/pokemonbattleconsole_ilslba.jpg",
       "url": "https://drakenguyen4000.github.io/pokemonbattleconsole/#/",
       "code": "https://github.com/drakenguyen4000/pokemon_battles/tree/main/client"

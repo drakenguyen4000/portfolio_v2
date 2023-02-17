@@ -68,8 +68,8 @@
       "summary": "Pokemon Battle Console is a mobile Pokemon battle game built using vanilla javascript and mobile first design.",
       "stack": "I used Figma to design the wireframe and then built the application in vanilla javascript.",
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1676175364/Pokemon_Battle_Console_cqgdhy.png",
-      "url": "https://drakenguyen4000.github.io/pokemonbattleconsole/#/",
-      "code": "https://github.com/drakenguyen4000/pokemon_battles/tree/main/client"
+      "url": "https://drakenguyen4000.github.io/pokemonbattle/",
+      "code": "https://drakenguyen4000.github.io/pokemonbattle/"
     },
     {
       "title": "Issues Tracker",

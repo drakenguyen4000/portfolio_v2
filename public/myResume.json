@@ -95,8 +95,8 @@
       "summary": "A travel site I built that offers tours of different regions of Vietnam. Since I enjoy traveling there so much, I decided to build a project around it.",
       "stack": "This site was built using Bootstrap, Javascript, JQuery, HTML5, and CSS3.",
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258354/vietnamtravels_rvqklk.jpg",
-      "url": "https://drakenguyen4000.github.io/portfolio/4-projects/vietnamtravels/index.html",
-      "code": "https://github.com/drakenguyen4000/portfolio/tree/master/4-projects/vietnamtravels"
+      "url": "https://drakenguyen4000.github.io/vietnamtravels/",
+      "code": "https://github.com/drakenguyen4000/vietnamtravels"
     },
     {
       "title": "Weather Forecast",

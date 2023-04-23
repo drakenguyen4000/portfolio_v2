@@ -565,7 +565,7 @@ section h2 {
   .container nav ul {
     height: 0px;
     overflow: hidden;
-    background: #282828;
+    /* background: #282828; */
     border-radius: 5px;
   }
 
@@ -580,10 +580,14 @@ section h2 {
     width: auto;
     margin: 0;
     display: block;
+    margin: 5px;
+    background: #282828;
+    border-radius: 5px;
   }
 
   .container nav ul li a {
     color: #ffffff;
+    color: #fd7b4d;
     padding: 10px;
     display: block;
   }

@@ -141,11 +141,12 @@ section h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 5px;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 #About p {
-  color: #1f1e1e;
+  color: #565353;
   margin-bottom: 4%;
 }
 

@@ -34,29 +34,26 @@
       "Javascript ES6 / DOM Manipulation",
       "HTML5",
       "CSS3 / Flexbox / Grid",
-      "Bootstrap 3/4",
+      "Tailwind / Bootstrap 3/4",
       "SASS",
       "Node / npm",
       "Express",
-      "MongoDB / Mongoose",
-      "MySQL"
+      "MongoDB / Mongoose"
     ],
     "skills": [
+      "Pair Coding",
+      "Writing Issues and Pull Request",
+      "Review Code & Merging Pull Request",
       "Troubleshoot & Debug Software",
       "Quality Assurance & Testing",
-      "Content & Database Management",
       "RESTful API",
-      "Create Responsive Websites",
-      "PSD Model Conversion",
-      "Multi-task Projects",
-      "Attention to Detail & Creative Eye",
+      "Responsive Websites",
       "Wireframe"
     ],
     "tools": [
       "Git / GitHub",
-      "CLI (Linux)",
-      "Jira",
       "Visual Studio Code",
+      "Docker",
       "Photoshop", 
       "Figma"
     ]

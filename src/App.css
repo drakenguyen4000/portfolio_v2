@@ -132,8 +132,11 @@ body {
 }
 
 .greeting {
-  font-family: Montserrat,sans-serif;
   font-size: 4rem;
+}
+
+.greeting, .dev-title {
+  font-family: var(--font-alt);
 }
 
 /*---sections---*/

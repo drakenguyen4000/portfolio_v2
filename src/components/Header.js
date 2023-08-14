@@ -13,7 +13,7 @@ const Header = (props) => {
       <section id="Home" className="js--sections-home">
         <div className="intro-container">
           <p className="js--wp-home greeting">{name}</p>
-          <span>{title}</span>
+          <span className="dev-title">{title}</span>
           <a href="#About" className="js--scroll-to-about chevron-button">
             <i className="fas fa-chevron-circle-down"></i>
           </a>

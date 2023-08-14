@@ -7,17 +7,17 @@ const About = (props) => {
 
   return (
     <section id="About" className="js--sections-about">
-      <h2>About Me</h2>
       <div className="about-container">
+      <div className="js--wp-about-pic about-container-pic">
+          <img className="profile-pic" />
+        </div>
         <div className="js--wp-about">
+        <h2>About Me</h2>
           <p>{paragraph1}</p>
           <p>{paragraph2}</p>
           <p>{paragraph3}</p>
           <p>{paragraph4}</p>
           <p>{paragraph5}</p>
-        </div>
-        <div className="js--wp-about-pic about-container-pic">
-          <img className="profile-pic" />
         </div>
       </div>
     </section>

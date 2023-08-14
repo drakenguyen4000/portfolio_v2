@@ -157,18 +157,21 @@ section h2 {
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 5px;
   font-size: 1.1rem;
-  font-weight: 600;
+  padding: 3%;
+  border-radius: 5px;
 }
 
 #About p {
-  color: #565353;
   margin-bottom: 4%;
+  color: #000000b2;
+  line-height: 1.7;
 }
 
 .about-container-pic {
   display: grid;
   justify-items: center;
   grid-gap: 10px;
+  background: none;
 }
 
 .profile-pic {
@@ -178,8 +181,7 @@ section h2 {
   min-width: 280px;
   min-height: 280px;
   border-radius: 200px;
-  box-shadow: 10px 10px 14px rgb(163, 163, 163);
-  border: 2px lightgray solid;
+  border: 2px white solid;
 }
 
 /*---Skills---*/

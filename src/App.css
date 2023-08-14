@@ -4,7 +4,7 @@
   --color-orange: #fd7b4d;
   --color-white: #fff;
   --color-black: #0c0c0c;
-  --color-golden: #dcca87;
+  --color-turquoise: #3a8486;
 }
 
 * {
@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 /*---Navbar---*/
@@ -54,7 +54,7 @@ body {
   display: block;
   content: "";
   padding-bottom: 2px;
-  border-bottom: 2px solid #fd7b4d;
+  border-bottom: 2px solid var(--color-orange);
   -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
           transform: scaleX(0);
@@ -114,10 +114,10 @@ body {
 }
 
 .fa-chevron-circle-down {
-  color: #fd7b4d;
+  color: var(--color-orange);
 }
 .fa-chevron-circle-down:hover {
-  color: #3a8486;
+  color: var(--color-turquoise);
   -webkit-transition: color 250ms;
   -o-transition: color 250ms;
   transition: color 250ms;
@@ -267,7 +267,7 @@ section h2::after {
 
 /*Skills bulletpoint*/
 /* .fa-circle-notch {
-  color: #fd7b4d;
+  color: var(--color-orange);
   color: white;
   font-size: 75%;
 } */
@@ -345,11 +345,11 @@ section h2::after {
 }
 
 #Contact h2 {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .contact-btn:hover {
-  background: #3a8486;
+  background: var(--color-turquoise);
   -webkit-transition: background-color 250ms;
   -o-transition: background-color 250ms;
   transition: background-color 250ms;
@@ -362,7 +362,7 @@ section h2::after {
   font-weight: 600;
   text-decoration: none;
   border-radius: 200px;
-  background: #fd7b4d;
+  background: var(--color-orange);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,7 +375,7 @@ section h2::after {
 }
 
 .download_btn:hover {
-  background: #3a8486;
+  background: var(--color-turquoise);
   -webkit-transition: background-color 250ms;
   -o-transition: background-color 250ms;
   transition: background-color 250ms;
@@ -404,11 +404,11 @@ section h2::after {
 .fa-caret-square-up {
   font-size: 250%;
   float: right;
-  color: #fd7b4d;
+  color: var(--color-orange);
 }
 
 .fa-caret-square-up:hover {
-  color: #3a8486;
+  color: var(--color-turquoise);
   -webkit-transition: color 250ms;
   -o-transition: color 250ms;
   transition: color 250ms;
@@ -518,7 +518,7 @@ section h2::after {
   }
 
   .burger-nav i {
-    color: #fd7b4d;
+    color: var(--color-orange);
   }
 
   /*hides navigation list*/
@@ -546,8 +546,7 @@ section h2::after {
   }
 
   .container nav ul li a {
-    color: #ffffff;
-    color: #fd7b4d;
+    color: var(--color-orange);
     padding: 10px;
     display: block;
   }
@@ -587,7 +586,7 @@ section h2::after {
     font-weight: 600;
     text-decoration: none;
     border-radius: 200px;
-    background: #fd7b4d;
+    background: var(--color-orange);
   }
 }
 

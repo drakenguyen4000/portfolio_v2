@@ -11,19 +11,16 @@ const Projects = (props) => {
         return (
           <div key={i} className="projects-container">
             <div className="project-description-card">
-              {/* <div> */}
               <h4>{item.title}</h4>
-              {/* <i className="fas fa-mouse-pointer"></i> */}
-              {/* </div> */}
               <p>{item.blurb}</p>
               <p>{item.summary}</p>
               <p>{item.stack}</p>
-              <div>
+              <div className="project-links">
                 <a target="_blank" href={`${item.url}`}>
-                  Site
+                  Live Demo
                 </a>
                 <a target="_blank" href={`${item.code}`}>
-                  Code
+                  Repo
                 </a>
               </div>
             </div>

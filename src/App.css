@@ -306,6 +306,30 @@ section h2::after {
   color: #565353;
 }
 
+.project-links {
+  margin-top: 5%;
+}
+.project-links > a:first-child {
+  margin-right: 5%;
+  background: #ef4f14;
+}
+.project-links > a:first-child:hover{
+  background: var(--color-orange);
+}
+.project-links > a {
+  font-weight: 600;
+  font-family:'Work Sans', sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(30, 30, 30);
+  padding: 1% 4%;
+  background: var(--color-turquoise);
+  border-radius: 2px;
+  box-shadow: 4px 4px 2px rgb(153, 152, 152);
+}
+.project-links > a:hover {
+  background: #4aa2a5;
+}
+
 /*---Contact---*/
 #Contact {
   background: #2e5f7f;

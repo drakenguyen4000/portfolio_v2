@@ -2,6 +2,7 @@
   --font-base: "Open Sans", sans-serif; 
   --font-alt:"Cormorant Upright", serif;
   --color-orange: #fd7b4d;
+  --color-red-orange: #ef4f14;
   --color-white: #fff;
   --color-black: #0c0c0c;
   --color-turquoise: #3a8486;
@@ -311,7 +312,7 @@ section h2::after {
 }
 .project-links > a:first-child {
   margin-right: 5%;
-  background: #ef4f14;
+  background: var(--color-red-orange);
 }
 .project-links > a:first-child:hover{
   background: var(--color-orange);
@@ -332,7 +333,8 @@ section h2::after {
 
 /*---Contact---*/
 #Contact {
-  background: #2e5f7f;
+  /* background: #2e5f7f; */
+  background-color: var(--color-black);
   font-size: 1.4rem;
 }
 
@@ -372,21 +374,15 @@ section h2::after {
   color: var(--color-white);
 }
 
-.contact-btn:hover {
-  background: var(--color-turquoise);
-  -webkit-transition: background-color 250ms;
-  -o-transition: background-color 250ms;
-  transition: background-color 250ms;
-}
 
-.download_btn, .contact-btn {
+.download-btn, .contact-btn {
   width: 200px;
   height: 50px;
-  background: #1f1e1e;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 200px;
-  background: var(--color-orange);
+  border-radius: 2px;
+  box-shadow: 6px 6px 3px rgb(41, 41, 41);
+  text-shadow: 1px 1px rgb(30, 30, 30);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,19 +394,56 @@ section h2::after {
           align-items: center;
 }
 
-.download_btn:hover {
-  background: var(--color-turquoise);
-  -webkit-transition: background-color 250ms;
-  -o-transition: background-color 250ms;
-  transition: background-color 250ms;
-}
-
 .fa-cloud-download-alt {
   margin-right: .5rem;
 }
 
 .contact-btn i {
   margin-right: .5rem;
+}
+
+.contact-btn {
+  background-color: var(--color-turquoise);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 2s;
+}
+.contact-btn a, .download-btn a {
+  z-index: 100;
+}
+
+.download-btn{
+  background-color: var(--color-red-orange);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 2s;
+}
+
+#slide-1 {
+  position: absolute;
+  left: -250px;
+  width: 210px;
+  height: 100px;
+  background-color: #4aa2a5;
+  transition: 1s;
+}
+
+#slide-2 {
+  position: absolute;
+  left: -250px;
+  width: 210px;
+  height: 100px;
+  background-color: var(--color-orange);
+  transition: 1s;
+}
+
+.contact-btn:hover, .download-btn:hover {
+  box-shadow: 6px 6px 3px rgb(229, 229, 229);
+}
+
+.download-btn:hover #slide-2, .contact-btn:hover #slide-1 {
+  transition: 1s;
+  left: -10px;
 }
 
 .social-media {
@@ -428,14 +461,12 @@ section h2::after {
 .fa-caret-square-up {
   font-size: 250%;
   float: right;
-  color: var(--color-orange);
+  color: var(--color-red-orange);
+  transition: color 1s;
 }
 
 .fa-caret-square-up:hover {
-  color: var(--color-turquoise);
-  -webkit-transition: color 250ms;
-  -o-transition: color 250ms;
-  transition: color 250ms;
+  color: var(--color-orange);
 }
 
 /*---Footer---*/

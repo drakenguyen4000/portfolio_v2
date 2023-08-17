@@ -24,9 +24,7 @@ const Projects = (props) => {
                 </a>
               </div>
             </div>
-            <div className="project-card">
-              <img src={`${item.image}`} alt="project-image" />
-            </div>
+              <img className="project-image" src={`${item.image}`} alt="project-image" />
           </div>
         );
       });

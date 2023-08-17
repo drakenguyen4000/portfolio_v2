@@ -21,6 +21,13 @@ body {
   background-color: var(--color-white);
 }
 
+p {
+  line-height: 1.7;
+  margin-bottom: 4%;
+  color: #000000b2;
+
+}
+
 /*---Navbar---*/
 .navbar {
   background: transparent;
@@ -170,17 +177,11 @@ section h2::after {
 
 .about-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 5px;
   font-size: 1.1rem;
-  padding: 3%;
+  /* padding: 3%; */
   border-radius: 5px;
-}
-
-#About p {
-  margin-bottom: 4%;
-  color: #000000b2;
-  line-height: 1.7;
 }
 
 .about-container-pic {
@@ -277,34 +278,30 @@ section h2::after {
 
 /*Project container*/
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-  grid-gap: 5px;
-  font-size: 1.1rem;
-  border-radius: 5px;
-  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3%; 
+  justify-content: space-around;
+  font-size: 1.05rem;
 }
 
-.project-card img {
-  width: 100%;
+.project-image {
   border: 1px rgb(218, 217, 217) solid;
   box-shadow: 5px 5px 2px rgb(153, 152, 152);
+  width: 100%;
+  max-width: 650px;
 }
 
 .project-description-card {
-  padding: 3%;
-  color: var(--color-black);
+  width: 500px;
+  margin-bottom: 10%;
 }
 
 .project-description-card h4 {
   color: var(--color-black);
   padding-bottom: 1rem;
   font-family: var(--font-alt);
-  font-size: 1.5em;
-}
-
-.project-description-card p{
-  color: #565353;
+  font-size: 1.4em;
 }
 
 .project-links {
@@ -542,6 +539,7 @@ section h2::after {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
+
 
 @media only screen and (max-width: 900px) {
   #mainnavbar .navbar {

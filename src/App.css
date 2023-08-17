@@ -25,7 +25,6 @@ p {
   line-height: 1.7;
   margin-bottom: 4%;
   color: #000000b2;
-
 }
 
 /*---Navbar---*/
@@ -141,6 +140,7 @@ p {
 
 .greeting {
   font-size: 4rem;
+  color: var(--color-white)
 }
 
 .greeting, .dev-title {
@@ -176,19 +176,16 @@ section h2::after {
 /*---About---*/
 
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   font-size: 1.1rem;
-  /* padding: 3%; */
-  border-radius: 5px;
 }
 
 .about-container-pic {
-  display: grid;
-  justify-items: center;
-  grid-gap: 10px;
-  background: none;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
 }
 
 .profile-pic {
@@ -199,6 +196,11 @@ section h2::after {
   min-height: 280px;
   border-radius: 200px;
   border: 2px white solid;
+}
+
+.about-description {
+  width: 100%;
+  max-width: 600px;
 }
 
 /*---Skills---*/

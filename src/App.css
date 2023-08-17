@@ -34,7 +34,7 @@ p {
   position: fixed;
   width: 100%;
   text-align: center;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar li {
@@ -224,7 +224,7 @@ section h2::after {
   height:100%;
   width:100%;
   background: rgba(0,0,0,0.8); 
-  z-index:0;
+  /* z-index:0; */
 }
 
 #Skills h3 {
@@ -247,7 +247,7 @@ section h2::after {
 
 #Skills h2{
   color: white;
-  z-index: 100;
+  z-index: 1;
 }
 .skills-title {
   margin-left: 10%;
@@ -408,7 +408,7 @@ section h2::after {
   transition: box-shadow 2s;
 }
 .contact-btn a, .download-btn a {
-  z-index: 100;
+  z-index: 1;
 }
 
 .download-btn{
@@ -470,7 +470,7 @@ section h2::after {
 
 /*---Footer---*/
 #Footer {
-  background: #191919;
+  background-color: var(--color-black);
   height: 40px;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -597,7 +597,9 @@ section h2::after {
     display: block;
     margin: 5px;
     background: #282828;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(134, 133, 133);
+    box-shadow: 1px 1px 1px white;
   }
 
   .container nav ul li a {

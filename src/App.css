@@ -225,7 +225,6 @@ section h2::after {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
-  /* z-index:0; */
 }
 
 #Skills h3 {
@@ -292,7 +291,8 @@ section h2::after {
   border: 1px rgb(218, 217, 217) solid;
   box-shadow: 5px 5px 2px rgb(153, 152, 152);
   width: 100%;
-  max-width: 650px;
+  max-width: 530px;
+  max-height: 320px;
 }
 
 .project-description-card {
@@ -556,7 +556,7 @@ section h2::after {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   #mainnavbar .navbar {
     overflow: hidden;
     position: absolute;
@@ -593,7 +593,6 @@ section h2::after {
   .container nav ul {
     height: 0px;
     overflow: hidden;
-    /* background: #282828; */
     border-radius: 5px;
   }
 
@@ -624,5 +623,11 @@ section h2::after {
   .container nav ul li a:active {
     border: none;
     color: #11abb0;
+  }
+}
+
+@media (min-width: 901px) {
+   .projects-container {
+    padding: 0 3%;
   }
 }

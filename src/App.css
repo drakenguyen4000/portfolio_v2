@@ -121,6 +121,17 @@ p {
   flex-wrap: wrap;
 }
 
+.astronaut {
+  transform: translateY(-5%);
+  animation: floating 3s infinite;
+  transition: ease 0.5s;
+}
+
+@keyframes floating {
+  0%{transform: translateY(-5%);transition: ease 0.5s;}
+  50%{transform: translateY(5%);transition: ease 0.5s;}
+}
+
 .chevron-button {
   display: block;
 }

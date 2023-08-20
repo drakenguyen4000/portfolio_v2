@@ -11,6 +11,7 @@ const Header = (props) => {
     <div>
       <Navbar />
       <section id="Home" className="js--sections-home">
+        <img className="astronaut" src="/image/astronaut.png" alt="astronaut"></img>
         <div className="intro-container">
           <p className="js--wp-home greeting">{name}</p>
           <span className="dev-title">{title}</span>

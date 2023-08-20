@@ -101,8 +101,12 @@ p {
 }
 
 #Home {
-  background-image: url("./img/dan-meyers-utFO-7TScD4-unsplash.jpg");
+  background-image: url("https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1207&q=80");
+  min-height: 500px;
   background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   padding: 0 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,6 +118,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   height: 100vh;
+  flex-wrap: wrap;
 }
 
 .chevron-button {
@@ -134,7 +139,8 @@ p {
   font-size: 1.8rem;
   font-weight: 600;
   text-shadow: 1px 1px black;
-  background: rgba(5, 5, 5, 0.7);
+  padding: 1%;
+  border-radius: 3px;
   text-align: center;
 }
 

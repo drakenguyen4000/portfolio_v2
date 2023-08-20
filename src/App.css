@@ -320,6 +320,11 @@ section h2::after {
   width: 100%;
   max-width: 530px;
   max-height: 320px;
+  transition: width .5s;
+}
+
+a .project-image:hover {
+  width: 98%;
 }
 
 .project-description-card {

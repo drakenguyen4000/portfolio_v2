@@ -24,7 +24,9 @@ const Projects = (props) => {
                 </a>
               </div>
             </div>
+            <a target="_blank" href={`${item.code}`}>
               <img className="project-image" src={`${item.image}`} alt="project-image" />
+            </a>
           </div>
         );
       });

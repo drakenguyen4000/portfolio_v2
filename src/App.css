@@ -1,6 +1,6 @@
 :root {
   --font-base: "Open Sans", sans-serif;
-  --font-alt: "Cormorant Upright", serif;
+  --font-alt: "Work Sans", sans-serif;
   --color-orange: #fd7b4d;
   --color-red-orange: #ef4f14;
   --color-white: #fff;
@@ -128,8 +128,14 @@ p {
 }
 
 @keyframes floating {
-  0%{transform: translateY(-5%);transition: ease 0.5s;}
-  50%{transform: translateY(5%);transition: ease 0.5s;}
+  0% {
+    transform: translateY(-5%);
+    transition: ease 0.5s;
+  }
+  50% {
+    transform: translateY(5%);
+    transition: ease 0.5s;
+  }
 }
 
 .chevron-button {
@@ -159,22 +165,26 @@ p {
   color: var(--color-white);
 }
 
-.greeting,
-.dev-title {
-  font-family: var(--font-alt);
-}
-
 /*---sections---*/
 section {
   padding: 5% 10%;
   min-height: 600px;
 }
 
+h2,
+h3,
+h4, 
+a,
+.greeting,
+.dev-title {
+  font-family: var(--font-alt);
+}
+
 section h2 {
   margin: 0 0 2% 3%;
   color: var(--color-black);
   padding-bottom: 1rem;
-  font-family: var(--font-alt);
+  text-transform: uppercase;
 }
 
 section h2::after {
@@ -320,8 +330,8 @@ section h2::after {
 .project-description-card h4 {
   color: var(--color-black);
   padding-bottom: 1rem;
-  font-family: var(--font-alt);
   font-size: 1.4em;
+  font-weight: 300;
 }
 
 .project-links {
@@ -336,7 +346,6 @@ section h2::after {
 }
 .project-links > a {
   font-weight: 600;
-  font-family: "Work Sans", sans-serif;
   text-decoration: none;
   text-shadow: 1px 1px rgb(30, 30, 30);
   padding: 1% 4%;
@@ -650,7 +659,7 @@ section h2::after {
 }
 
 @media (min-width: 901px) {
-   .projects-container {
+  .projects-container {
     padding: 0 3%;
   }
 }

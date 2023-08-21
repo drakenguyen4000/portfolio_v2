@@ -29,17 +29,18 @@ const Contact = (props) => {
         </div>
         <div className="right-container">
           <span className="social-media">{socialMedia(socialmedia)}</span>
-          <a className="contact-btn" href={`mailto:${email}`}>
-            <i className="fas fa-envelope-open-text"></i> Message Me
-          </a>
-          <a
-            className="download_btn"
-            target="_blank"
-            rel="noreferrer"
-            href={`${resumelink}`}
-          >
-            <i className="fas fa-cloud-download-alt"></i> View Resume
-          </a>
+          <div className="contact-btn">
+            <div id="slide-1"></div>
+            <a href={`mailto:${email}`}>
+              <i className="fas fa-envelope-open-text"></i> Message Me
+            </a>
+          </div>
+          <div className="download-btn">
+            <div id="slide-2"></div>
+            <a target="_blank" rel="noreferrer" href={`${resumelink}`}>
+              <i className="fas fa-cloud-download-alt"></i> View Resume
+            </a>
+          </div>
         </div>
       </div>
       <a href="#home" className="js--scroll-to-home">

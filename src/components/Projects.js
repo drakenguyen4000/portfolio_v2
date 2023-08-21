@@ -9,29 +9,24 @@ const Projects = (props) => {
     if (project) {
       return project.map((item, i) => {
         return (
-          <div key={i} className="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img
-                  src={`${item.image}`}
-                  alt="project"
-                  style={{ width: "100%", height: "100%" }}
-                />
-                <div className="flip-card-front-banner">
-                  <h4>{item.title}</h4>
-                  <i className="fas fa-mouse-pointer"></i>
-                </div>
-              </div>
-              <div className="flip-card-back">
-                  <h4>{item.blurb}</h4>
-                  <p>{item.summary}</p>
-                  <p>{item.stack}</p>
-                <div className="flip-card-back-banner">
-                  <a target="_blank" href={`${item.url}`}>Site</a>
-                  <a target="_blank" href={`${item.code}`}>Code</a>
-                </div>
+          <div key={i} className="projects-container">
+            <div className="project-description-card">
+              <h4>{item.title}</h4>
+              <p>{item.blurb}</p>
+              <p>{item.summary}</p>
+              <p>{item.stack}</p>
+              <div className="project-links">
+                <a target="_blank" href={`${item.url}`}>
+                  Live Demo
+                </a>
+                <a target="_blank" href={`${item.code}`}>
+                  Repo
+                </a>
               </div>
             </div>
+            <a target="_blank" href={`${item.code}`}>
+              <img className="project-image" src={`${item.image}`} alt="project-image" />
+            </a>
           </div>
         );
       });
@@ -41,7 +36,7 @@ const Projects = (props) => {
   return (
     <section id="Projects" className="js--sections-projects">
       <h2>Projects</h2>
-      <span className="js--wp-projects">{list(projects)}</span>
+      <div className="js--wp-projects">{list(projects)}</div>
     </section>
   );
 };

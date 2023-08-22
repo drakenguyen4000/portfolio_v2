@@ -107,7 +107,7 @@ p {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  padding: 0 5%;
+  /* padding: 0 5%; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,7 +269,7 @@ section h2::after {
   border-radius: 5px;
   border: 1px solid white;
   border: var(--color-orange) 1px dashed;
-  background: rgba(5, 5, 5, 0.7);
+  background-color: rgba(5, 5, 5, 0.7);
 }
 
 #Skills h2 {
@@ -344,22 +344,22 @@ a .project-image:hover {
 }
 .project-links > a:first-child {
   margin-right: 5%;
-  background: var(--color-red-orange);
+  background-color: var(--color-red-orange);
 }
 .project-links > a:first-child:hover {
-  background: var(--color-orange);
+  background-color: var(--color-orange);
 }
 .project-links > a {
   font-weight: 600;
   text-decoration: none;
   text-shadow: 1px 1px rgb(30, 30, 30);
   padding: 1% 4%;
-  background: var(--color-turquoise);
+  background-color: var(--color-turquoise);
   border-radius: 2px;
   box-shadow: 4px 4px 2px rgb(153, 152, 152);
 }
 .project-links > a:hover {
-  background: #4aa2a5;
+  background-color: #4aa2a5;
 }
 
 /*---Contact---*/
@@ -603,14 +603,14 @@ a .project-image:hover {
   }
 
   .navbar.scrolled {
-    background: transparent;
+    background-color: transparent;
     -webkit-transition: background 800ms;
     -o-transition: background 800ms;
     transition: background 800ms;
   }
 
   .burger-nav {
-    background: rgba(7, 9, 14, 0.8);
+    background-color: rgba(7, 9, 14, 0.8);
     font-size: 220%;
     display: block;
     float: right;

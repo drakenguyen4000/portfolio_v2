@@ -69,6 +69,15 @@
       "code": "https://github.com/drakenguyen4000/pokemonbattle"
     },
     {
+      "title": "Smart Shopping List",
+      "blurb": "Keep track of your shopping!",
+      "summary": "A smart shopping list app built using code pairing teams at the Collab Lab.  The app predicts a user's shopping habits.",
+      "stack": "Built using React, JavaScript, and Google Firestore.",
+      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1692668675/Smartshoppinglist_ivqzqu.png",
+      "url": "https://tcl-56-smart-shopping-li-ffe7d.web.app/",
+      "code": "https://github.com/the-collab-lab/tcl-56-smart-shopping-list"
+    },
+    {
       "title": "Issues Tracker",
       "blurb": "An app to track bugs & other issues!",
       "summary": "Issues tracker is a fullstack MERN application that enables your company to track bugs/issues of your projects. This applicaiton uses RESTful route API architecture and is deployed on Heroku.",
@@ -79,30 +88,12 @@
     },
     {
       "title": "eApparel",
-      "blurb": "A online store!",
+      "blurb": "An online store.",
       "summary": "eApparel is a fullstack MERN application that allows shoppers to browse the latest fashion, order what they love, and track their past order history.  The app is built using MERN stack, utilizing Redux state management.",
       "stack": "This app was developed using MongdoDB, React/Redux, Express, Node.js, and Stripe payment.",
       "image": "https://res.cloudinary.com/dkn4000/image/upload/v1676175267/eApparel_Store_tnpfvm.png",
       "url": "https://eapparelstore.herokuapp.com/#/",
       "code": "https://github.com/drakenguyen4000/eapparelstore"
-    },
-    {
-      "title": "Vietnam Travels",
-      "blurb": "Looking to relax?",
-      "summary": "A travel site I built that offers tours of different regions of Vietnam. Since I enjoy traveling there so much, I decided to build a project around it.",
-      "stack": "This site was built using Bootstrap, Javascript, JQuery, HTML5, and CSS3.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258354/vietnamtravels_rvqklk.jpg",
-      "url": "https://drakenguyen4000.github.io/vietnamtravels/",
-      "code": "https://github.com/drakenguyen4000/vietnamtravels"
-    },
-    {
-      "title": "Weather Forecast",
-      "blurb": "What's your weather like?",
-      "summary": "A weather forecaster that searches by gps location or user input. The app uses AJAX to fetch api data from Weather Bit to generate a five day weather forecast.",
-      "stack": "This app was built using React, Javascript, HTML5, and CSS3.",
-      "image": "https://res.cloudinary.com/dkn4000/image/upload/v1620258353/myforecast_clvv3r.jpg",
-      "url": "https://drakenguyen4000.github.io/weatherforecast/",
-      "code": "https://github.com/drakenguyen4000/weatherforecast"
     }
   ]
 }

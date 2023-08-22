@@ -538,24 +538,24 @@ a .project-image:hover {
 
 .js--wp-skills-1.animated {
   opacity: 1;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
 
 .js--wp-skills-2.animated {
   opacity: 1;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
 
 .js--wp-skills-3.animated {
   opacity: 1;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }

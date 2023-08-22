@@ -78,7 +78,7 @@ $(document).ready((direction) => {
   panel.forEach((count) => {
     $(".js--wp-skills-" + count.toString()).waypoint(
       (direction) => {
-        $(".js--wp-skills-" + count).addClass("animated flipInY");
+        $(".js--wp-skills-" + count).addClass("animated fadeInRight");
       },
       {
         offset: "50%",

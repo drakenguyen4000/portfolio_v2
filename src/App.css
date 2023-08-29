@@ -41,7 +41,7 @@ p {
   list-style: none;
   display: inline-block;
   font-weight: 600;
-  padding: 0 60px;
+  padding: 0 4%;
   text-transform: uppercase;
   text-shadow: -1px 1px black;
 }

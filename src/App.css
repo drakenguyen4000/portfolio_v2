@@ -153,7 +153,7 @@ p {
 }
 
 .intro-container {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-shadow: 1px 1px black;
   border-radius: 3px;
@@ -161,7 +161,7 @@ p {
 }
 
 .greeting {
-  font-size: 2.5rem;
+  font-size: 1.77rem;
   color: var(--color-white);
 }
 
@@ -577,9 +577,40 @@ a .project-image:hover {
   animation-duration: 1s;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 414px) {
+  .intro-container {
+    font-size: 1.5rem;
+  }
+
+  .greeting {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 540px) {
+  .intro-container {
+    font-size: 2rem;
+  }
+
+  .greeting {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
   .intro-container {
     font-size: 2.5rem;
+  }
+
+  .greeting {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 820px) {
+  .intro-container {
+    font-size: 2.8rem;
   }
 
   .greeting {
@@ -587,6 +618,13 @@ a .project-image:hover {
   }
 }
 
+@media (min-width: 901px) {
+  .projects-container {
+    padding: 0 3%;
+  }
+}
+
+/*controls navbar collapsed setup*/
 @media (max-width: 900px) {
   #mainnavbar .navbar {
     overflow: hidden;
@@ -657,8 +695,3 @@ a .project-image:hover {
   }
 }
 
-@media (min-width: 901px) {
-  .projects-container {
-    padding: 0 3%;
-  }
-}

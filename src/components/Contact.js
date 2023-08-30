@@ -1,4 +1,6 @@
 import React from "react";
+import { HashLink } from 'react-router-hash-link';
+
 
 const Contact = (props) => {
   if (props.data) {
@@ -43,9 +45,9 @@ const Contact = (props) => {
           </div>
         </div>
       </div>
-      <a href="#home" className="js--scroll-to-home">
+      <HashLink to="#home" smooth>
         <i className="fas fa-caret-square-up"></i>
-      </a>
+      </HashLink>
     </section>
   );
 };

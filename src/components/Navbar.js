@@ -1,11 +1,9 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   
   return (
-    <BrowserRouter>
       <div className="container">
         <div id="mainnavbar" className="navbar">
           <span className="burger-nav"><i className="fas fa-bars"></i></span>
@@ -18,7 +16,6 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </BrowserRouter>
   );
 };
 

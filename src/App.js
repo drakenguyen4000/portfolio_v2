@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   const [allData, setAllData] = useState({
@@ -24,14 +24,14 @@ const App = () => {
   const { main, skills, projects } = allData.resume;
 
   return (
-    <div>
-        <Header data={main} />
-        <About data={main} />
-        <Skills data={skills} />
-        <Projects data={projects} />
-        <Contact data={main} />
-        <Footer data={main}/>
-    </div>
+    <BrowserRouter>
+      <Header data={main} />
+      <About data={main} />
+      <Skills data={skills} />
+      <Projects data={projects} />
+      <Contact data={main} />
+      <Footer data={main} />
+    </BrowserRouter>
   );
 };
 

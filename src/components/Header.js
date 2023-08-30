@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Header = (props) => {
   if (props.data) {
@@ -15,9 +17,9 @@ const Header = (props) => {
         <div className="intro-container">
           <p className="js--wp-home greeting">{name}</p>
           <span className="dev-title">{title}</span>
-          <a href="#About" className="js--scroll-to-about chevron-button">
+          <HashLink to="#about" smooth className="chevron-button">
             <i className="fas fa-chevron-circle-down"></i>
-          </a>
+          </HashLink>
         </div>
       </section>
     </div>

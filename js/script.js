@@ -5,45 +5,6 @@ $(document).ready((direction) => {
   });
 
   /*----------------Navbar link scrolling---------------*/
-  /*---Scroll to home section---*/
-  $(".js--scroll-to-home").click((direction) => {
-    $("html, body").animate(
-      { scrollTop: $(".js--sections-home").offset().top },
-      1000
-    );
-  });
-
-  /*---Scroll to about section---*/
-  $(".js--scroll-to-about").click((direction) => {
-    $("html, body").animate(
-      { scrollTop: $(".js--sections-about").offset().top },
-      1000
-    );
-  });
-
-  /*---Scroll to skills section---*/
-  $(".js--scroll-to-skills").click((direction) => {
-    $("html, body").animate(
-      { scrollTop: $(".js--sections-skills").offset().top },
-      1000
-    );
-  });
-
-  /*---Scroll to projects section---*/
-  $(".js--scroll-to-projects").click((direction) => {
-    $("html, body").animate(
-      { scrollTop: $(".js--sections-projects").offset().top },
-      1000
-    );
-  });
-
-  /*---Scroll to contact section---*/
-  $(".js--scroll-to-contact").click((direction) => {
-    $("html, body").animate(
-      { scrollTop: $(".js--sections-contact").offset().top },
-      1000
-    );
-  });
 
   /*---name fade up---*/
   $(".js--wp-home").waypoint(

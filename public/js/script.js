@@ -1,7 +1,7 @@
 $(document).ready((direction) => {
   /*---Toggle navbar---*/
   $(".burger-nav").on("click", () => {
-    $(".container nav ul").toggleClass("open");
+    $(".container div ul").toggleClass("open");
   });
 
   /*----------------Navbar link scrolling---------------*/

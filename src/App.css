@@ -52,8 +52,6 @@ p {
 
 .navbar a:hover {
   color: #11abb0;
-  -webkit-transition: color 250ms;
-  -o-transition: color 250ms;
   transition: color 250ms;
 }
 
@@ -62,37 +60,23 @@ p {
   content: "";
   padding-bottom: 2px;
   border-bottom: 2px solid var(--color-orange);
-  -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  -o-transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .navbar a:hover:after {
-  -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 .navbar a.fromRight:after {
-  -webkit-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
 .navbar a.fromLeft:after {
-  -webkit-transform-origin: 0% 50%;
-  -ms-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
 }
 
 /*adds black background to navbar when scrolling*/
 .navbar.scrolled {
   background: rgba(7, 9, 14, 0.8);
-  -webkit-transition: background 800ms;
-  -o-transition: background 800ms;
   transition: background 800ms;
 }
 
@@ -108,14 +92,8 @@ p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   /* padding: 0 5%; */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 100vh;
   flex-wrap: wrap;
@@ -123,8 +101,20 @@ p {
 
 .astronaut {
   transform: translateY(-5%);
-  animation: floating 3s infinite;
+  -webkit-animation: floating 3s infinite;
+          animation: floating 3s infinite;
   transition: ease 0.5s;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    transform: translateY(-5%);
+    transition: ease 0.5s;
+  }
+  50% {
+    transform: translateY(5%);
+    transition: ease 0.5s;
+  }
 }
 
 @keyframes floating {
@@ -147,8 +137,6 @@ p {
 }
 .fa-chevron-circle-down:hover {
   color: var(--color-turquoise);
-  -webkit-transition: color 250ms;
-  -o-transition: color 250ms;
   transition: color 250ms;
 }
 
@@ -370,12 +358,8 @@ a .project-image:hover {
 }
 
 .contact-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -385,15 +369,8 @@ a .project-image:hover {
 
 .right-container {
   height: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -414,14 +391,8 @@ a .project-image:hover {
   border-radius: 2px;
   box-shadow: 6px 6px 3px rgb(41, 41, 41);
   text-shadow: 1px 1px rgb(30, 30, 30);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -481,10 +452,7 @@ a .project-image:hover {
 }
 
 .social-media {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -510,14 +478,8 @@ a .project-image:hover {
   text-transform: uppercase;
   /* font-size: 1.2rem; */
   font-size: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -549,9 +511,9 @@ a .project-image:hover {
 .js--wp-skills-3.animated {
   opacity: 1;
   -webkit-animation-delay: 2.5s;
-  animation-delay: 2.5s;
+          animation-delay: 2.5s;
   -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .js--wp-about-pic {
@@ -636,8 +598,6 @@ a .project-image:hover {
 
   .navbar.scrolled {
     background-color: transparent;
-    -webkit-transition: background 800ms;
-    -o-transition: background 800ms;
     transition: background 800ms;
   }
 

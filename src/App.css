@@ -100,7 +100,7 @@ p {
   display: none;
 }
 
-#Home {
+#home {
   background-image: url("https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1207&q=80");
   min-height: 500px;
   background-position: center;
@@ -226,7 +226,7 @@ section h2::after {
 
 /*---Skills---*/
 /*skills container*/
-#Skills {
+#skills {
   background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
   background-size: cover;
   background-attachment: fixed;
@@ -247,7 +247,7 @@ section h2::after {
   /* background: rgba(0, 0, 0, 0.2);8 */
 }
 
-#Skills h3 {
+#skills h3 {
   padding-top: 5%;
 }
 
@@ -266,7 +266,7 @@ section h2::after {
   background-color: rgba(5, 5, 5, 0.7);
 }
 
-#Skills h2 {
+#skills h2 {
   color: white;
   z-index: 1;
 }
@@ -359,7 +359,7 @@ a .project-image:hover {
 /*---Contact---*/
 
 /*---Contact---*/
-#Contact {
+#contact {
   font-size: 1.4rem;
   background-image: url("https://images.unsplash.com/photo-1592636120953-3d2b28ebfd69");
   background-position: center;
@@ -397,11 +397,11 @@ a .project-image:hover {
   justify-content: space-between;
 }
 
-#Contact div {
+#contact div {
   margin: 3%;
 }
 
-#Contact h2 {
+#contact h2 {
   color: var(--color-white);
 }
 
@@ -659,19 +659,19 @@ a .project-image:hover {
   }
 
   /*hides navigation list*/
-  .container nav ul {
+  .container div ul {
     height: 0px;
     overflow: hidden;
     border-radius: 5px;
   }
 
-  .container nav ul.open {
+  .container div ul.open {
     height: auto;
     float: right;
     clear: both;
   }
 
-  .container nav ul li {
+  .container div ul li {
     float: none;
     width: auto;
     margin: 0;
@@ -683,13 +683,13 @@ a .project-image:hover {
     box-shadow: 1px 1px 1px white;
   }
 
-  .container nav ul li a {
+  .container div ul li a {
     color: var(--color-orange);
     padding: 10px;
     display: block;
   }
 
-  .container nav ul li a:active {
+  .container div ul li a:active {
     border: none;
     color: #11abb0;
   }

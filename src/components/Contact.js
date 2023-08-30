@@ -21,7 +21,7 @@ const Contact = (props) => {
   };
 
   return (
-    <section id="Contact" className="js--sections-contact">
+    <section id="contact">
       <h2>Contact</h2>
       <div className="contact-wrapper">
         <div className="left-container">

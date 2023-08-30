@@ -1,20 +1,24 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   
   return (
-    <div className="container">
-      <nav id="mainnavbar" className="navbar">
-        <span className="burger-nav"><i className="fas fa-bars"></i></span>
-        <ul className="nav">
-          <li><a href="#home" className="js--scroll-to-home"><i className="fa-sharp fa-solid fa-house"></i> Home</a></li>
-          <li><a href="#about" className="js--scroll-to-about"><i className="fa-solid fa-user"></i> About</a></li>
-          <li><a href="#skills" className="js--scroll-to-skills"><i className="fa-solid fa-book"></i> Skills</a></li>
-          <li><a href="#projects" className="js--scroll-to-projects"><i className="fa-solid fa-flask"></i> Projects</a></li>
-          <li><a href="#contact" className="js--scroll-to-contact"><i className="fa-solid fa-address-book"></i> Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <div id="mainnavbar" className="navbar">
+          <span className="burger-nav"><i className="fas fa-bars"></i></span>
+          <ul className="nav">
+            <li><HashLink to="#home" smooth><i className="fa-sharp fa-solid fa-house"></i> Home</HashLink></li>
+            <li><HashLink to="#about" smooth><i className="fa-solid fa-user"></i> About</HashLink></li>
+            <li><HashLink to="#skills" smooth><i className="fa-solid fa-book"></i> Skills</HashLink></li>
+            <li><HashLink to="#projects" smooth><i className="fa-solid fa-flask"></i> Projects</HashLink></li>
+            <li><HashLink to="#contact" smooth><i className="fa-solid fa-address-book"></i> Contact</HashLink></li>
+          </ul>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 };
 

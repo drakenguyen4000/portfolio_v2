@@ -34,7 +34,7 @@ const Projects = (props) => {
   };
 
   return (
-    <section id="Projects" className="js--sections-projects">
+    <section id="projects">
       <h2>Projects</h2>
       <div className="js--wp-projects">{list(projects)}</div>
     </section>

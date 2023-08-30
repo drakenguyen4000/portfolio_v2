@@ -7,7 +7,7 @@ const About = (props) => {
   }
 
   return (
-    <section id="About" className="js--sections-about">
+    <section id="about">
       <div className="about-container">
         <div className="js--wp-about-pic about-container-pic">
           <img className="profile-pic" src="https://res.cloudinary.com/dkn4000/image/upload/v1692768248/Profile-4-2_eqx4zk.png" alt="profile-pic" />

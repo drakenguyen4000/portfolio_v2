@@ -19,7 +19,7 @@ const Skills = (props) => {
 
   return (
     <div className="skills-wrapper">
-      <section id="Skills" className="js--sections-skills">
+      <section id="skills">
         <div>
           <h2>Web Development Skills</h2>
           <div className="skills-panels-group">

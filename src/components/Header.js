@@ -10,7 +10,7 @@ const Header = (props) => {
   return (
     <div>
       <Navbar />
-      <section id="Home" className="js--sections-home">
+      <section id="home">
         <img className="astronaut" src="/image/astronaut.png" alt="astronaut"></img>
         <div className="intro-container">
           <p className="js--wp-home greeting">{name}</p>

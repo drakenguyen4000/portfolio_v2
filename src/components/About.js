@@ -2,7 +2,7 @@ import React from "react";
 
 const About = (props) => {
   if (props.data) {
-    var { paragraph1, paragraph2, paragraph3, paragraph4, paragraph5 } =
+    var { paragraph1, paragraph2, paragraph3, paragraph4, paragraph5, paragraph6 } =
       props.data.bio;
   }
 
@@ -19,6 +19,7 @@ const About = (props) => {
           <p>{paragraph3}</p>
           <p>{paragraph4}</p>
           <p>{paragraph5}</p>
+          <p>{paragraph6}</p>
         </div>
       </div>
     </section>
